@@ -31,7 +31,7 @@ ONG-SJPA/
 |-- README.md
 ```
 
-## Especialistas
+## Desenvolvido por:
 <p>
     <img align=left margin=10 width=80 
         src="https://avatars.githubusercontent.com/u/174968110?v=4" alt="img-Douglas">
@@ -106,8 +106,16 @@ _____________________________________________
 
 <p>
     <img align=left margin=10 width=80
+<<<<<<< HEAD
         src="https://avatars.githubusercontent.com/u/142761921?v=4" alt="img-Wagner">
     <p>&nbsp&nbsp&nbsp Wagner Oliveira<br>&nbsp&nbsp&nbsp
     <a href="https://github.com/wagner1067" target="_blank">GitHub</a>&nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/wagner-oliveira-14a8b4289/" target="_blank">Linkedin</a>
 </p>
+=======
+        src="" alt="img-Wagner">
+    <p>&nbsp&nbsp&nbsp Wagner<br>&nbsp&nbsp&nbsp
+    <a href="" target="_blank">GitHub</a>&nbsp;&nbsp;
+    <a href="" target="_blank">Linkedin</a>
+</p>
+>>>>>>> 5be9f5dbe742412cab4852e73a1d56115d8035f1
