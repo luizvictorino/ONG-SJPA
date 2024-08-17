@@ -31,7 +31,7 @@ ONG-SJPA/
 |-- README.md
 ```
 
-## Especialistas
+## Desenvolvido por:
 <p>
     <img align=left margin=10 width=80 
         src="https://avatars.githubusercontent.com/u/174968110?v=4" alt="img-Douglas">
