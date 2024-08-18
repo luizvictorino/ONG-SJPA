@@ -97,3 +97,40 @@ strong{
     margin-left: 10px;
     font-weight: var(--weight-title);
 }
+/* section sobre */
+.sobre{
+    background-image: url("./../img/backgroundSobre.png");
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-body{
+    display: grid; 
+    grid-template-columns: auto auto; 
+    grid-template-rows: 20% 20%; 
+    gap: 10px;
+    grid-template-areas: 
+    "titulo img"
+    "paragh img";
+    width: 90%;
+    padding: 40px 32px;
+}
+.title-sessao{
+    grid-area: titulo;
+    color: #64BDB1;
+    font-size: 48px;
+    font-weight: var(--weight-title);
+}
+.sessao-parag{
+    color: var(--black-color);
+    grid-area: paragh;
+}
+.img-sobe{
+    grid-area: img;
+}
