@@ -223,3 +223,58 @@ margin-bottom: 150px;
   animation: bounce; 
   animation-duration: 0.7s; 
 }
+/* section voluntarios */
+.voluntarios{
+    background-image: url('./../img/backgound-voluntarios.png');
+    background-size: contain;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 20;
+    position: relative;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 70px !important;
+}
+.voluntarios .title-sessao{
+    display: block;
+    width: 100%;
+    color: #D0FFD5;
+    text-align: center;
+    margin-top: 40px;
+}
+figcaption{
+    font-weight: var(--weight-title);
+    text-align: center;
+    font-size: 2rem;
+}
+footer{
+    display: flex;
+    background-color: #1B934F;
+    justify-content: space-between ;
+    padding: 20px 32px;
+    align-items: center;
+
+}
+.title-redes{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+footer a{
+    display: inline-block;
+}
+footer .redes{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    gap: 5px;
+}
+.autorais{
+    margin-top: 20px;
+        text-align: center;
+}
