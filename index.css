@@ -79,7 +79,7 @@ header{
 /* baneer */
 .banner{
     display: flex;
-    background-image: url('./../img/imgBanner.png');
+    background-image: url('./assets/images/img/imgBanner.png');
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -98,7 +98,7 @@ strong{
 }
 /* section sobre */
 .sobre{
-    background-image: url("./../img/backgroundSobre.png");
+    background-image: url("./assets/images/img/backgroundSobre.png");
     display: flex;
     flex-wrap: wrap;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ strong{
 }
 /* section adocao */
 .adocao{
-    background-image: url('./../img/backgoundAdocao.png');
+    background-image: url('./assets/images/img/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
@@ -175,14 +175,14 @@ strong{
     background-color: #fff;
 }
 .card-adote,.card-apadrinhe,.dog-description{
-    background-image: url('./../img/dog.png');
+    background-image: url('./assets/images/img/dog.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
-.card-apadrinhe{background-image: url('./../img/cat.png');}
-.card-doe{background-image: url('./../img//clinica.png');}
+.card-apadrinhe{background-image: url('./assets/images/img/cat.png');}
+.card-doe{background-image: url('./assets/images/img/clinica.png');}
 .dog-description{
-    background-image: url('./../img/background-dogDescription.png');
+    background-image: url('./assets/images/img/background-dogDescription.png');
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +224,7 @@ margin-bottom: 150px;
 }
 /* section voluntarios */
 .voluntarios{
-    background-image: url('./../img/backgound-voluntarios.png');
+    background-image: url('./assets/images/img/backgound-voluntarios.png');
     background-size: contain;
     width: 100%;
     height: 70vh;
