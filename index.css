@@ -12,9 +12,10 @@
     /* textos */
     --weight-title:800;
     --weight-paragraph:400;
-}html {
+}
+html {
     scroll-behavior: smooth;
-  }
+}
 a{
     text-decoration: none !important;
 }
@@ -27,9 +28,7 @@ body{
     color: var(--white-color);
     font-size: 18px;
     font-weight: var(--weight-paragraph);
-
 }
-
 header{
     background-color: var(--primary-color);
 }
