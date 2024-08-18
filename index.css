@@ -170,3 +170,56 @@ strong{
    color: var(--white-color);
    font-weight: var(--weight-title);
 }
+/* caroucel animas description */
+.caroucelAnimal{
+    z-index: 2;
+    background-color: #fff;
+}
+.card-adote,.card-apadrinhe,.dog-description{
+    background-image: url('./../img/dog.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card-apadrinhe{background-image: url('./../img/cat.png');}
+.card-doe{background-image: url('./../img//clinica.png');}
+.dog-description{
+    background-image: url('./../img/background-dogDescription.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-right: 30px;
+
+}
+.img-dogDescription{
+    width: 54%;
+    height: 80vh;
+}
+.dog-descri_body{
+    width: 40%;
+}
+.arrowAdot{
+    color: #000;
+    margin-right: 20px;
+    padding: 10px;
+}
+.arrowAdot:hover{
+    display: inline-block;
+    margin: 0 1rem;
+    animation: tada; 
+    animation-duration: 2s;  
+  }
+.carousel{
+width: 100% !important;
+height: 50vh;
+margin-bottom: 150px;
+}
+.carousel-control{
+    width: fit-content;
+    margin-top: 20% ;
+}
+.card:hover{
+    display: inline-flex;
+    cursor: pointer;
+  animation: bounce; 
+  animation-duration: 0.7s; 
+}
