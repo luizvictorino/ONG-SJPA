@@ -82,7 +82,7 @@ _____________________________
     <img align=left margin=10 width=80
         src="" alt="img-Ronildo">
     <p>&nbsp&nbsp&nbsp <b>Ronildo Maciel</b><br>&nbsp&nbsp&nbsp
-    <a href="" target="_blank">GitHub</a>
+    <a href="https://github.com/RonildoMaciel456" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/ronildo-maciel-2b8a941a9/" target="_blank">Linkedin</a>
 </p>
