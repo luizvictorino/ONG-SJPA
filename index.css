@@ -163,6 +163,18 @@ strong{
     justify-content: center;
     align-items: center;
 }
+
+  
+.animate{
+    display: flex;
+    animation: bounce; 
+    animation-duration: 1.7s; 
+}
+.card:hover{
+    display: flex;
+    animation: bounce; 
+    animation-duration: 1s; 
+  }
 .card-title{
     display: block;
     font-size: 35px;
@@ -215,12 +227,6 @@ margin-bottom: 150px;
 .carousel-control{
     width: fit-content;
     margin-top: 20% ;
-}
-.card:hover{
-    display: inline-flex;
-    cursor: pointer;
-  animation: bounce; 
-  animation-duration: 0.7s; 
 }
 /* section voluntarios */
 .voluntarios{
@@ -277,3 +283,13 @@ footer .redes{
     margin-top: 20px;
         text-align: center;
 }
+.redes a{
+    display: inline-block;
+    animation: bounce; 
+    animation-duration: 1s; 
+  }
+  .redes a:nth-of-type(1){
+    display: inline-block;
+    animation: bounce; 
+    animation-duration: 2s; 
+  }
