@@ -80,7 +80,7 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="" alt="img-Ronildo">
+        src="https://avatars.githubusercontent.com/u/161389969?v=4" alt="img-Ronildo">
     <p>&nbsp&nbsp&nbsp <b>Ronildo Maciel</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/RonildoMaciel456" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
