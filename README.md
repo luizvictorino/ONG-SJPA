@@ -1,45 +1,61 @@
 <p align="center">
-    <img src="./assets/images/img-ongSJPA.jpg" width="400">
+    <img src="./assets/images/img/imgLogo.webp" width="600">
 </p>
 <p align="center">Preview <b>ONG SJPA</b></p>
 
-# 🐾ONG Sociedade Juizforense de Protecao Aos Animais e Ao Meio Ambiente (ONG-SJPA)🐾
-## Descrição
+# 🐾 ONG Sociedade Juizforense de Protecao Aos Animais e Ao Meio Ambiente (ONG-SJPA) 🐾
+Seja bem-vindo(a) ao repositório oficial da **`ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA)`** Este projeto foi criado com muito carinho para ajudar os peludinhos que estão em busca de um lar cheio de amor e carinho. 🏠💛
 
-Este repositório contém o código-fonte do site oficial da ONG SJPA, uma organização dedicada a oferecer um refúgio seguro e humanizado para animais em situação de abandono. Fundada há mais de 36 anos, a SJPA atualmente cuida de cerca de 450 cães e gatos, contando exclusivamente com o apoio da comunidade para manter sua operação e missão.
+## 📝 Descrição
+Este site foi desenvolvido para a **`ONG-SJPA`** com o objetivo de conectar pets abandonados a pessoas dispostas a adotá-los. Aqui, você encontrará uma interface amigável para visualizar os animais disponíveis para adoção, conhecer mais sobre a história da ONG, e explorar as diversas formas de contribuir para essa causa. Seja adotando, apadrinhando um pet ou fazendo uma doação, você pode fazer a diferença na vida desses animais! 🐾
 
-## Demostração
+## 🎯 Para que serve?
+A plataforma serve como um elo entre os pets abandonados e os futuros tutores, padrinhos e doadores. Além de visualizar os pets disponíveis para adoção, os usuários podem escolher apadrinhar um pet, contribuindo financeiramente para o seu cuidado, ou fazer uma doação para ajudar a ONG a continuar seu trabalho incrível.
 
-Para visualizar a pagina web da ONG, acesse [ONG SJPA](https://luizvictorino.github.io/ONG-SJPA/).
+## 👀 Demonstração
+Quer dar uma espiadinha no que está por vir? Confira a versão ao vivo clicando [aqui](https://luizvictorino.github.io/ONG-SJPA/)! 🌐
 
-## Tecnologias Utilizadass
+## 💡 Funcionalidades
+* **Visualização de Pets**: Veja os pets disponíveis para adoção.
+* **Cadastro para Adoção**: Inscreva-se para adotar um pet.
+* **Apadrinhamento**: Contribua financeiramente para o cuidado de um pet específico.
+* ****oações: Faça uma doação para ajudar a ONG a continuar sua missão.
+* **Histórias Felizes**: Leia sobre adoções bem-sucedidas.
+* **Seja um Voluntário***: Cadastre-se para ajudar a ONG.
 
-As tecnologias utilizadas para este projeto foram;
+## 🛠️ Tecnologias Utilizadas
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-* **`HTML`**: para estruturar o conteúdo da página
-* **`CSS`**: para estilizar e dar vida ao layout da pagina
+* 🌐 `HTML5`
+* 🎨 `CSS3`
+* ⚙️ `JavaScript` 
 
 ## Estrutura de Pastas
-
-Aqui está uma visão geral da estrutura do projeto:
+Aqui está um resumo da estrutura de pastas do projeto:
 
 ```
 ONG-SJPA/
-|-- assets/
-|   |-- css/
-|   |-- fonts/
-|   |-- images/
-|       |-- imagesPets/
-|   |-- js/
-|   |-- videos/
-|       |-- videosPets/
-|-- index.css
-|-- index.html
-|-- index.js
-|-- README.md
+│
+├── index.html       # Página principal do site
+├── styles/
+│   └── style.css    # Estilos personalizados
+├── scripts/
+│   └── main.js      # Lógica do site
+└── images/
+    ├── pets/        # Fotos dos pets disponíveis para adoção
+    └── ...          # Outras imagens do site
 ```
 
-## Desenvolvido por:
+## 📸 Algumas Fotos do Projeto
+Uma prévia da nossa página inicial, cheia de pets fofos esperando por você!
+```
+campo para incluir as fotos dos pets
+```
+
+Pronto para adotar ou apadrinhar? Escolha o seu novo melhor amigo aqui!
+
+## 👥 Desenvolvedores
+Este projeto incrível foi desenvolvido por:
 
 <p>
     <img align=left margin=10 width=80 
@@ -120,5 +136,8 @@ _____________________________
     &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/wagner-oliveira-14a8b4289/" target="_blank">Linkedin</a>
 </p>
+<br><br>
 
+## 🙌 Agradecimentos
+Agradecemos a todos os envolvidos na criação deste projeto e a você, que está considerando adotar, apadrinhar ou doar para ajudar os pets. Juntos, podemos mudar a vida desses animaizinhos! 🐾
 _____________________________
