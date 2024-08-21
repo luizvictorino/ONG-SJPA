@@ -36,14 +36,15 @@ Aqui está um resumo da estrutura de pastas do projeto:
 ```
 ONG-SJPA/
 │
-├── index.html       # Página principal do site
-├── styles/
-│   └── style.css    # Estilos personalizados
-├── scripts/
-│   └── main.js      # Lógica do site
-└── images/
-    ├── pets/        # Fotos dos pets disponíveis para adoção
-    └── ...          # Outras imagens do site
+├── index.html            # Página principal do site
+├── index.css             # Estilos personalizados
+├── index.js              # Lógica do site
+└── assets/
+    ├── images/
+        ├── imagePets/    # Fotos dos pets disponíveis para adoção
+        ├── img/          # Outras imagens
+    ├── videos/
+        ├──videoPet       # Videos dos pets
 ```
 
 ## 📸 Algumas Fotos do Projeto
