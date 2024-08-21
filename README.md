@@ -3,11 +3,21 @@
 </p>
 <p align="center">Preview <b>ONG SJPA</b></p>
 
-
+# 🐾ONG Sociedade Juizforense de Protecao Aos Animais e Ao Meio Ambiente (ONG-SJPA)🐾
 ## Descrição
+
 Este repositório contém o código-fonte do site oficial da ONG SJPA, uma organização dedicada a oferecer um refúgio seguro e humanizado para animais em situação de abandono. Fundada há mais de 36 anos, a SJPA atualmente cuida de cerca de 450 cães e gatos, contando exclusivamente com o apoio da comunidade para manter sua operação e missão.
 
+## Demostração
 
+Para visualizar a pagina web da ONG, acesse [ONG SJPA](https://luizvictorino.github.io/ONG-SJPA/).
+
+## Tecnologias Utilizadass
+
+As tecnologias utilizadas para este projeto foram;
+
+* **`HTML`**: para estruturar o conteúdo da página
+* **`CSS`**: para estilizar e dar vida ao layout da pagina
 
 ## Estrutura de Pastas
 
