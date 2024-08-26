@@ -20,13 +20,13 @@ a{
     text-decoration: none !important;
 }
 body{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     display: block;
     width: 100%;
     font-family: 'Kumbh Sans';
     margin: 0 auto;
     color: var(--white-color);
-    font-size: 18px;
+    font-size: 25px;
     font-weight: var(--weight-paragraph);
 }
 header{
@@ -42,6 +42,8 @@ header{
 .logo{
     width: 5rem;
 }
+
+
 .menu-top ul{
     list-style: none;
     display: flex;
@@ -79,18 +81,22 @@ header{
 /* baneer */
 .banner{
     display: flex;
-    background-image: url('./assets/images/img/imgBanner.png');
+    background-image: url('../images/img/7c741c494705_sjpa03.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: bottom;
+    background-attachment: fixed;
     width: 100%;
     height: 90vh;
     align-items: center;
+    filter: brightness(70%);
 }
 h1{
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 7rem;
+    text-shadow: 2px 2px #2C513C;
     margin-left: 10vw;
-    width: 30rem;
+    width: 60rem;
 }
 strong{
     margin-left: 10px;
@@ -98,7 +104,7 @@ strong{
 }
 /* section sobre */
 .sobre{
-    background-image: url("./assets/images/img/backgroundSobre.png");
+    background-image: url("../images/img/backgroundSobre.png");
     display: flex;
     flex-wrap: wrap;
     background-repeat: no-repeat;
@@ -119,23 +125,28 @@ strong{
     "paragh img";
     width: 90%;
     padding: 40px 32px;
+
 }
 .title-sessao{
     grid-area: titulo;
-    color: #64BDB1;
-    font-size: 48px;
+    color: #62BE8D;
+    font-size: 80px;
     font-weight: var(--weight-title);
 }
 .sessao-parag{
     color: var(--black-color);
     grid-area: paragh;
+    font-size: 30px;
+    width: 95%;
 }
 .img-sobe{
     grid-area: img;
+    height: 450px;
+    border-radius: 20% 5% 20% 5%;
 }
 /* section adocao */
 .adocao{
-    background-image: url('./assets/images/img/backgoundAdocao.png');
+    background-image: url('../images/img/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
@@ -188,14 +199,14 @@ strong{
     background-color: #fff;
 }
 .card-adote,.card-apadrinhe,.dog-description{
-    background-image: url('./assets/images/imagePets/pet_resized.jpeg');
+    background-image: url('../images/imagePets/pet_resized.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-.card-apadrinhe{background-image: url('./assets/images/imagePets/pet7_resized.jpeg');}
-.card-doe{background-image: url('./assets/images/imagePets/pet9_resized.jpeg');}
+.card-apadrinhe{background-image: url('../images/imagePets/pet7_resized.jpeg');}
+.card-doe{background-image: url('../images/imagePets/pet9_resized.jpeg');}
 .dog-description{
-    background-image: url('./assets/images/img/background-dogDescription.png');
+    background-image: url('../images/img/background-dogDescription.png');
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,11 +240,11 @@ margin-bottom: 150px;
 }
 .carousel-control{
     width: fit-content;
-    margin-top: 20% ;
+    top: 40%;
 }
 /* section voluntarios */
 .voluntarios{
-    background-image: url('./assets/images/img/backgound-voluntarios.png');
+    background-image: url('../images/img/backgound-voluntarios.png');
     background-size: contain;
     width: 100%;
     height: 70vh;
