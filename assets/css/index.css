@@ -1,60 +1,69 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     /* cores */
     --primary-color: #2C513C;
     --green-less: #62BE8D;
     --white-color: #fff;
-    --black-color:#000;
+    --black-color: #000;
     /* textos */
-    --weight-title:800;
-    --weight-paragraph:400;
+    --weight-title: 800;
+    --weight-paragraph: 400;
 }
+
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
-body{
+
+body {
     /* max-width: 1440px; */
     display: block;
     width: 100%;
     font-family: 'Kumbh Sans';
     margin: 0 auto;
     color: var(--white-color);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: var(--weight-paragraph);
 }
-header{
+
+header {
     background-color: var(--primary-color);
 }
+
 /* menu */
-.menu-top{
+.menu-top {
     display: flex;
     justify-content: space-between;
     padding: 16px 48px;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 5rem;
 }
 
 
-.menu-top ul{
+.menu-top ul {
     list-style: none;
     display: flex;
     gap: 30px;
     padding-top: 15px;
 }
-.menu-item{
+
+.menu-item {
     width: fit-content;
     height: fit-content;
 }
-.menu-item_link{
+
+.menu-item_link {
     display: inline-flex;
     padding: 10px;
     text-decoration: none;
@@ -62,28 +71,30 @@ header{
     transition: transform 0.4s ease;
 }
 
-.menu-item_link:hover{
+.menu-item_link:hover {
     background-color: var(--white-color);
     color: var(--primary-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transform: scale(1.1)
-
 }
-.redes{
+
+.redes {
     display: flex;
     gap: 40px;
 }
-.redes a{
+
+.redes a {
     color: var(--white-color);
 }
+
 /* baneer */
-.banner{
+.banner {
     display: flex;
     background-image: url('../images/img/7c741c494705_sjpa03.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
     width: 100%;
@@ -91,66 +102,73 @@ header{
     align-items: center;
     filter: brightness(70%);
 }
-h1{
+
+h1 {
     font-weight: 400;
-    font-size: 7rem;
+    font-size: 6rem;
     text-shadow: 2px 2px #2C513C;
     margin-left: 10vw;
     width: 60rem;
 }
-strong{
+
+strong {
     margin-left: 10px;
     font-weight: var(--weight-title);
 }
+
 /* section sobre */
-.sobre{
+.sobre {
     background-image: url("../images/img/backgroundSobre.png");
     display: flex;
     flex-wrap: wrap;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 80vh;
     align-items: center;
     justify-content: center;
 }
 
-.sobre-body{
-    display: grid; 
-    grid-template-columns: auto auto; 
-    grid-template-rows: 20% 20%; 
+.sobre-body {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20% 20%;
     gap: 10px;
-    grid-template-areas: 
-    "titulo img"
-    "paragh img";
+    grid-template-areas:
+        "titulo img"
+        "paragh img";
     width: 90%;
     padding: 40px 32px;
 
 }
-.title-sessao{
+
+.title-sessao {
     grid-area: titulo;
     color: #62BE8D;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: var(--weight-title);
 }
-.sessao-parag{
+
+.sessao-parag {
     color: var(--black-color);
     grid-area: paragh;
-    font-size: 30px;
+    font-size: 20px;
     width: 95%;
 }
-.img-sobe{
+
+.img-sobe {
     grid-area: img;
-    height: 450px;
-    border-radius: 20% 5% 20% 5%;
+    height: 300px;
+    border-radius: 2%;
 }
+
 /* section adocao */
-.adocao{
+.adocao {
     background-image: url('../images/img/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 70vh;
     padding-bottom: 50px;
@@ -158,13 +176,15 @@ strong{
     align-items: center;
     justify-content: space-around;
 }
-.adocao .title-sessao{
+
+.adocao .title-sessao {
     color: var(--white-color);
     display: block;
     width: 100%;
     text-align: center;
 }
-.card{
+
+.card {
     display: flex;
     position: relative;
     background-color: inherit;
@@ -176,74 +196,104 @@ strong{
     align-items: center;
 }
 
-  
-.animate{
+
+.animate {
     display: flex;
-    animation: bounce; 
-    animation-duration: 1.7s; 
+    animation: bounce;
+    animation-duration: 1.7s;
 }
-.card:hover{
+
+.card:hover {
     display: flex;
-    animation: bounce; 
-    animation-duration: 1s; 
-  }
-.card-title{
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+.card-title {
     display: block;
     font-size: 35px;
-   color: var(--white-color);
-   font-weight: var(--weight-title);
+    color: var(--white-color);
+    font-weight: var(--weight-title);
 }
+
 /* caroucel animas description */
-.caroucelAnimal{
+.caroucelAnimal {
     z-index: 2;
     background-color: #fff;
 }
-.card-adote,.card-apadrinhe,.dog-description{
+
+.card-adote,
+.card-apadrinhe,
+.dog-description {
     background-image: url('../images/imagePets/pet_resized.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-.card-apadrinhe{background-image: url('../images/imagePets/pet7_resized.jpeg');}
-.card-doe{background-image: url('../images/imagePets/pet9_resized.jpeg');}
-.dog-description{
+
+.card-apadrinhe {
+    background-image: url('../images/imagePets/pet7_resized.jpeg');
+}
+
+.card-doe {
+    background-image: url('../images/imagePets/pet9_resized.jpeg');
+}
+
+.dog-description {
     background-image: url('../images/img/background-dogDescription.png');
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding-right: 30px;
+    padding-right: 30px;
 
 }
-section .img-dogDescription{
+
+section .img-dogDescription {
     width: 54%;
-    height: 80vh;
+    height: 90vh;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
-.dog-descri_body{
+
+.dog-descri_body {
     width: 40%;
 }
-.arrowAdot{
+
+
+.fa-arrow-left {
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.fa-arrow-right {
     color: #000;
+    text-shadow: -2px 2px 5px #000;
+}
+
+.arrowAdot {
     margin-right: 20px;
     padding: 10px;
 }
-.arrowAdot:hover{
+
+.arrowAdot:hover {
     display: inline-block;
     margin: 0 1rem;
-    animation: tada; 
-    animation-duration: 2s;  
-  }
-.carousel{
-width: 100% !important;
-height: 50vh;
-margin-bottom: 150px;
+    animation: tada;
+    animation-duration: 2s;
 }
-.carousel-control{
+
+.carousel {
+    width: 100% !important;
+    height: 50vh;
+    margin-bottom: 150px;
+}
+
+.carousel-control {
     width: fit-content;
     top: 40%;
 }
+
 /* section voluntarios */
-.voluntarios{
+.voluntarios {
     background-image: url('../images/img/backgound-voluntarios.png');
     background-size: contain;
     width: 100%;
@@ -256,54 +306,63 @@ margin-bottom: 150px;
     gap: 70px;
     padding-bottom: 70px !important;
 }
-.voluntarios .title-sessao{
+
+.voluntarios .title-sessao {
     display: block;
     width: 100%;
     color: #D0FFD5;
     text-align: center;
     margin-top: 40px;
 }
-figcaption{
+
+figcaption {
     font-weight: var(--weight-title);
     text-align: center;
     font-size: 2rem;
 }
-footer{
+
+footer {
     display: flex;
     background-color: #1B934F;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 20px 32px;
     align-items: center;
 
 }
-.title-redes{
+
+.title-redes {
     width: 100%;
     text-align: center;
     font-weight: 700;
     margin-bottom: 0;
 
 }
-footer a{
+
+footer a {
     display: inline-block;
 }
-footer .redes{
+
+footer .redes {
     display: flex;
     flex-wrap: wrap;
     width: fit-content;
     justify-content: center;
     gap: 5px;
 }
-.autorais{
+
+.autorais {
     margin-top: 20px;
-        text-align: center;
+    text-align: center;
 }
-.redes a{
+
+.redes a {
     display: inline-block;
-    animation: bounce; 
-    animation-duration: 1s; 
-  }
-  .redes a:nth-of-type(1){
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+.redes a:nth-of-type(1) {
     display: inline-block;
-    animation: bounce; 
-    animation-duration: 2s; 
-  }
+    animation: bounce;
+    animation-duration: 2s;
+}
