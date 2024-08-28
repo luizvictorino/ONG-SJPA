@@ -1,0 +1,103 @@
+/* section descrição */
+.doacao-descricao{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #5EB867;
+}
+
+.doacao-descricao figure{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}.doacao-descricao img{
+    width: 439px;
+    height: 239px;
+}
+.descricao{
+    width: 40%;
+    height: fit-content;
+}
+.doacao-descricao h2.title-sessao{
+    color: var(--white-color);
+}
+.doacao-descricao h2.title-sessao span{
+    display: block;
+    font-size: 2rem;
+    line-height: 5px;
+}
+.doacao-descricao .sessao-parag{
+    color: var(--white-color);
+}
+
+/* section valores */
+.doacao_valores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('./../../assets/images/img/background-doacao.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.card_doacao-valor{
+    position: relative;
+    background-color: #5EB867;
+    border-radius: 33px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 160px;
+    color:  var(--black-color);
+}
+.card_doacao-valor:hover{
+    box-shadow: 2px 4px 6px #d1d1d12d;  
+    animation: pulse; 
+    animation-duration: 1.4s; 
+    cursor: pointer;
+}
+.card-text{
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: -25px;
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    padding: 5px 10px;
+}
+.card_valor{
+    font-size: 2.7rem;
+    font-weight: var(--weight-title);
+}
+.card_descricao{
+    text-align: center;
+    padding: 5px;
+}
+.container-btn{
+    display: block;
+    width: 100%;
+    margin-top: -100px;
+}
+.btnDoacao_outrosValores{
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    height: 8vh;
+    background-color: white;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 1rem;
+    color: #000;
+}
+.btnDoacao_outrosValores:hover{
+    background-color: #5EB867;
+    color: var(--white-color);
+    box-shadow: 2px 4px 6px #d1d1d12d;  
+    animation: pulse; 
+    animation-duration: 1.4s; 
+
+}
