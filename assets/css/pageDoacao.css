@@ -40,7 +40,8 @@
     align-items: center;
     background-image: url('./../../assets/images/img/background-doacao.png');
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size:cover;
+    height: 90vh;
 }
 .card_doacao-valor{
     position: relative;
@@ -75,12 +76,12 @@
 }
 .card_descricao{
     text-align: center;
-    padding: 5px;
+    padding: 0 5px;
 }
 .container-btn{
     display: block;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -90px;
 }
 .btnDoacao_outrosValores{
     display: flex;
