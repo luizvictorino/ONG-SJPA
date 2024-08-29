@@ -1,3 +1,5 @@
+export{getDOM}
+import { modalMan } from "./modal.js";
 /* função para deslizamento de tela ao clicar nas ancoras no topo */
 document.querySelectorAll('a[href^="html#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
@@ -9,27 +11,29 @@ document.querySelectorAll('a[href^="html#"]').forEach(anchor => {
   });
 });
 
-function pegaDOM(varTag, nameTag){
+function getDOM(varTag, nameTag){
    varTag = document.querySelector(nameTag)
    return varTag
 }
 function apagaClass(){
-  pegaDOM('divAdote', '.card-doe').classList.remove('animate')    
-  pegaDOM('divApadrinhe', '.card-apadrinhe').classList.remove('animate')
-  pegaDOM('divDoe', '.card-adote').classList.remove('animate')
+  getDOM('divAdote', '.card-doe').classList.remove('animate')    
+  getDOM('divApadrinhe', '.card-apadrinhe').classList.remove('animate')
+  getDOM('divDoe', '.card-adote').classList.remove('animate')
 
 }
-pegaDOM('ancoraAdote', '.menu_link-doacao').addEventListener("click", ()=>{
-  pegaDOM('divAdote', '.card-doe').classList.add('animate')
+getDOM('ancoraAdote', '.menu_link-doacao').addEventListener("click", ()=>{
+  getDOM('divAdote', '.card-doe').classList.add('animate')
   setTimeout(apagaClass, 1700);
 })
-pegaDOM('ancoraApadrinhe', '.menu_link-Apadrinhe').addEventListener("click", ()=>{
-  pegaDOM('divApadrinhe', '.card-apadrinhe').classList.add('animate')
+getDOM('ancoraApadrinhe', '.menu_link-Apadrinhe').addEventListener("click", ()=>{
+  getDOM('divApadrinhe', '.card-apadrinhe').classList.add('animate')
   setTimeout(apagaClass, 1700);
 })
-pegaDOM('ancoraDoe', '.menu_link-Adote').addEventListener("click", ()=>{
-  pegaDOM('divDoe', '.card-adote').classList.add('animate')
+getDOM('ancoraDoe', '.menu_link-Adote').addEventListener("click", ()=>{
+  getDOM('divDoe', '.card-adote').classList.add('animate')
   setTimeout(apagaClass, 1700);
 })
+modalMan()
+
 
     
