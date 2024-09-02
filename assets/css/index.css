@@ -51,6 +51,19 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo #titulo-logo {
+    font-size: 1.7rem;
+    font-family: 'Kumbh Sans';
+    color: var(--green-less);
+    margin-left: 15px;
+    font-weight: var(--weight-title);
+}
+
+.img-logo {
     width: 5rem;
 }
 
