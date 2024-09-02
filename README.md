@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/images/img/imgLogo.webp" width="600">
+    <img src="./assets/images/img/logo-ong.webp" width="600">
 </p>
 <p align="center">Preview <b>ONG SJPA</b></p>
 
