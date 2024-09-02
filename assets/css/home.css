@@ -53,13 +53,17 @@ strong {
 }
 .btn-sobre{
     display: block;
-    width: 200px;
-    margin: 50px auto;
-    color: #000;
-    font-size: 1.2rem;
+    width: 300px;
+    height: 55px;
+    margin: 80px auto;
+    color: white;
+    font-size: 1.5rem;
     letter-spacing: 3px;
-    border: 2px solid #1B934F;
-    
+    background-color: #2C513C;
+    border: 2px solid #2C513C;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
 .btn-sobre:hover{
     background-color: #1B934F;
@@ -68,16 +72,19 @@ strong {
 
 .title-sessao {
     grid-area: titulo;
-    color: #62BE8D;
+    color: black;
     font-size: 60px;
     font-weight: var(--weight-title);
+    margin-top: 90px;
+   
 }
 
 .sessao-parag {
     color: var(--black-color);
     grid-area: paragh;
-    font-size: 20px;
+    font-size: 25px;
     width: 95%;
+    margin-top: 70px;
 }
 
 .img-sobre {
