@@ -72,7 +72,7 @@ strong {
 
 .title-sessao {
     grid-area: titulo;
-    color: black;
+    color: #64BDB1;
     font-size: 60px;
     font-weight: var(--weight-title);
     margin-top: 90px;

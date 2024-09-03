@@ -48,7 +48,7 @@ header {
     justify-content: space-between;
     padding: 16px 48px;
     align-items: center;
-    font-size: 35px;
+    font-size: 1.7rem;
 }
 
 .logo {
@@ -67,7 +67,6 @@ header {
 .img-logo {
     width: 100px;
 }
-
 
 .menu-top ul {
     list-style: none;
@@ -105,4 +104,10 @@ header {
 
 .redes a {
     color: var(--white-color);
+}
+
+/*Footer*/
+
+footer .logo{
+    width: 80px;
 }
