@@ -1,4 +1,8 @@
 /* section descrição */
+*{
+    font-style: Kumbh Sans;
+}
+
 .doacao-descricao{
     display: flex;
     gap: 50px;

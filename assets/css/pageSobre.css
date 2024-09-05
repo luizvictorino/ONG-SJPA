@@ -1,3 +1,7 @@
+*{
+    font-style: Kumbh Sans;
+}
+
 .colaboradores {
     display: flex;
     flex-wrap: wrap;
