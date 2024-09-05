@@ -1,0 +1,49 @@
+footer {
+ z-index: 200;
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: space-between;
+  padding: 20px 32px;
+  align-items: center;
+}
+
+.title-redes {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+
+footer a {
+  display: inline-block;
+}
+
+footer .redes {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  gap: 5px;
+}
+
+.autorais {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.redes a {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.redes a:nth-of-type(1) {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+footer .logo{
+  width: 5rem;
+}
