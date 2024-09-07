@@ -1,0 +1,102 @@
+/* Estilo para o menu */
+.mobile-menu {
+    display: none;
+}
+
+.hamburger, .close {
+    display: none;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-times {
+    color: #fff;
+}
+
+.fa-times:hover {
+    color: #fff;
+}
+
+
+
+@media (max-width: 1300px) {
+
+    #menu, .menu-top .redes {
+        display: none;
+    }
+
+    .close {
+            display: block;
+            position: fixed;
+            top: 2%;
+            right: 2%;
+
+            z-index: 2;
+    }
+
+    .close:hover, 
+    .hamburger:hover {
+        background: none;
+        color: #fff;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-links-mobile {
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 0 60px 0;
+    }
+
+    .mobile-redes{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .fa-brands {
+        color: var(--primary-color);
+        background-color: var(--green-less);
+        font-size: 30px;
+        font-weight: 600;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .mobile-logo {
+        position: fixed;
+        top: 2%;
+        left: 2%;
+    }
+
+    .mimg-logo {
+        width: 80px;
+    }
+    
+}
