@@ -1,13 +1,13 @@
 .banner {
     display: flex;
-    background-image: url('../images/banners/7c741c494705_sjpa03.jpg');
+    background-image: url('../images/img/7c741c494705_sjpa03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 90vh;
     align-items: center;
-    filter: brightness(80%);
+    filter: brightness(70%);
 }
 
 h1 {
@@ -25,19 +25,17 @@ strong {
 
 /* section sobre */
 .sobre {
-    background-image: url("../images/banners/backgroundSobre.png");
+    background-image: url("../images/img/backgroundSobre.png");
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-   
+    flex-direction: column;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 120vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
 }
-
 .sobre-body {
     display: grid;
     grid-template-columns: auto auto;
@@ -50,8 +48,8 @@ strong {
     width: 98%;
     padding: 40px 32px;
     margin-top: 50px;
-}
 
+}
 .btn-sobre{
     display: block;
     width: 300px;
@@ -73,10 +71,10 @@ strong {
 
 .title-sessao {
     grid-area: titulo;
-    color: var(--primary-color);
+    color: #64BDB1;
     font-size: 60px;
     font-weight: var(--weight-title);
-    margin-top: 20px;
+    margin-top: 90px;
    
 }
 
@@ -85,20 +83,19 @@ strong {
     grid-area: paragh;
     font-size: 25px;
     width: 95%;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .img-sobre {
     grid-area: img;
-    width: 30vw;
-    height: 50vh;
+    height: 60vh;
     border-radius: 2%;
-    margin-top: 200px;
+    
 }
 
 /* section adocao */
 .adocao {
-    background-image: url('../images/banners/backgoundAdocao.png');
+    background-image: url('../images/img/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
@@ -128,8 +125,6 @@ strong {
     height: 200px;
     justify-content: center;
     align-items: center;
-    text-shadow: 6px 5px var(--primary-color);
-
 }
 
 
@@ -161,7 +156,7 @@ strong {
 .card-adote,
 .card-apadrinhe,
 .dog-description {
-    background-image: url('../images/img/img2.webp');
+    background-image: url('../images/imagePets/pet_resized.jpeg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -171,7 +166,7 @@ strong {
 }
 
 .card-doe {
-    background-image: url('../images/img/6149.jpg');
+    background-image: url('../images/imagePets/pet9_resized.jpeg');
 }
 
 .dog-description {
@@ -184,8 +179,8 @@ strong {
 }
 
 section .img-dogDescription {
-    width: 30%;
-    height: 68vh;
+    width: 54%;
+    height: 90vh;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
@@ -248,7 +243,7 @@ section .img-dogDescription {
     width: 100%;
     color: #D0FFD5;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 figcaption {
@@ -337,6 +332,14 @@ footer .redes {
 .fundo h2 {
     color: #000;
     font-size: 2rem;
+    padding-left: 3rem;
+}
+
+.fundo p{
+    color: #000;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .fundo button {
@@ -347,8 +350,8 @@ footer .redes {
     color: white;
     font-size: 1.5rem;
     letter-spacing: 3px;
-    background-color: #65558F;
-    border: 2px solid #65558F;
+    background-color: #2C513C;
+    border: 2px solid #2C513C;
     font-weight: bold;
     border-radius: 10px;
     text-transform: uppercase;
@@ -359,4 +362,6 @@ footer .redes {
     color: #fff;
 }
 
-
+.fundo .fa-brandsfa-whatsappfa-2xm{
+    color: white;
+}
