@@ -37,36 +37,3 @@ closeButton.addEventListener("click", function () {
   closeButton.style.display = "none";
   hamburgerButton.style.display = "block";
 });
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     const dropdownToggle = document.querySelector('.dropdown-toggle');
-//     const dropdownMenu = document.querySelector('.dropdown-menu');
-    
-//     dropdownToggle.addEventListener('click', function (event) {
-//       event.preventDefault();
-//       const isOpen = dropdownMenu.style.display === 'block';
-      
-//       // Fechar todos os dropdowns abertos
-//       document.querySelectorAll('.dropdown').forEach(function (dropdown) {
-//         dropdown.classList.remove('open');
-//       });
-      
-//       // Alternar o estado do dropdown atual
-//       if (!isOpen) {
-//         dropdownMenu.style.display = 'block';
-//         dropdownToggle.parentElement.classList.add('open');
-//       } else {
-//         dropdownMenu.style.display = 'none';
-//         dropdownToggle.parentElement.classList.remove('open');
-//       }
-//     });
-  
-//     // Fechar o dropdown se clicar fora
-//     document.addEventListener('click', function (event) {
-//       if (!dropdownToggle.parentElement.contains(event.target)) {
-//         dropdownMenu.style.display = 'none';
-//         dropdownToggle.parentElement.classList.remove('open');
-//       }
-//     });
-//   });
-  
