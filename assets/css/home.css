@@ -29,7 +29,7 @@ strong {
     display: flex;
     /* flex-direction: column; */
     /* flex-wrap: wrap; */
-    padding-top: ;
+   
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -184,8 +184,8 @@ strong {
 }
 
 section .img-dogDescription {
-    width: 54%;
-    height: 90vh;
+    width: 30%;
+    height: 68vh;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
@@ -248,7 +248,7 @@ section .img-dogDescription {
     width: 100%;
     color: #D0FFD5;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 figcaption {
