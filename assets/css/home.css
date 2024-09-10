@@ -1,13 +1,13 @@
 .banner {
     display: flex;
-    background-image: url('../images/img/7c741c494705_sjpa03.jpg');
+    background-image: url('../images/banners/7c741c494705_sjpa03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 90vh;
     align-items: center;
-    filter: brightness(70%);
+    filter: brightness(80%);
 }
 
 h1 {
@@ -25,17 +25,19 @@ strong {
 
 /* section sobre */
 .sobre {
-    background-image: url("../images/img/backgroundSobre.png");
+    background-image: url("../images/banners/backgroundSobre.png");
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    padding-top: ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 120vh;
     align-items: center;
     justify-content: center;
 }
+
 .sobre-body {
     display: grid;
     grid-template-columns: auto auto;
@@ -48,8 +50,8 @@ strong {
     width: 98%;
     padding: 40px 32px;
     margin-top: 50px;
-
 }
+
 .btn-sobre{
     display: block;
     width: 300px;
@@ -71,10 +73,10 @@ strong {
 
 .title-sessao {
     grid-area: titulo;
-    color: #64BDB1;
+    color: var(--primary-color);
     font-size: 60px;
     font-weight: var(--weight-title);
-    margin-top: 90px;
+    margin-top: 20px;
    
 }
 
@@ -83,19 +85,20 @@ strong {
     grid-area: paragh;
     font-size: 25px;
     width: 95%;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .img-sobre {
     grid-area: img;
-    height: 60vh;
+    width: 30vw;
+    height: 50vh;
     border-radius: 2%;
-    
+    margin-top: 200px;
 }
 
 /* section adocao */
 .adocao {
-    background-image: url('../images/img/backgoundAdocao.png');
+    background-image: url('../images/banners/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
@@ -125,6 +128,8 @@ strong {
     height: 200px;
     justify-content: center;
     align-items: center;
+    text-shadow: 6px 5px var(--primary-color);
+
 }
 
 
@@ -156,7 +161,7 @@ strong {
 .card-adote,
 .card-apadrinhe,
 .dog-description {
-    background-image: url('../images/imagePets/pet_resized.jpeg');
+    background-image: url('../images/img/img2.webp');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -166,7 +171,7 @@ strong {
 }
 
 .card-doe {
-    background-image: url('../images/imagePets/pet9_resized.jpeg');
+    background-image: url('../images/img/6149.jpg');
 }
 
 .dog-description {

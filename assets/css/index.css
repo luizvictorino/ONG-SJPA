@@ -130,6 +130,7 @@ footer .logo{
     font-size: 1.8rem;
     z-index: 5;
     padding-top: 10px;
+    justify-content: space-around;
 }
 
 .nav-links-mobile {
@@ -156,7 +157,7 @@ footer .logo{
 
   .close {
     position: fixed;
-    top: 3%;
+    top: 1%;
     right: 1.4%;
     background-color: #000;
     
@@ -168,7 +169,7 @@ footer .logo{
 
     position: fixed;
     top: 30px;
-    right: 10px;
+    right: 5%;
   }
 
   .hamburger:hover {
@@ -195,7 +196,7 @@ footer .logo{
 
   .mobile-redes {
     display: flex;
-    padding-top: 20px;
+    padding-bottom: 15%;
     gap: 10px;
   }
 
@@ -203,9 +204,9 @@ footer .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
     border-radius: 30px;
     background-color: var(--green-less);
     gap: 200px;
