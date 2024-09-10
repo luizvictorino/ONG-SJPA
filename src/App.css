@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* cores */
+  --primary-color: #2C513C;
+  --green-less: #62BE8D;
+  --white-color: #fff;
+  --black-color: #000;
+  /* textos */
+  --weight-title: 800;
+  --weight-paragraph: 400;
+}

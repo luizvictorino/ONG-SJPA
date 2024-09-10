@@ -1,0 +1,109 @@
+:root {
+  /* cores */
+  --primary-color: #2C513C;
+  --green-less: #62BE8D;
+  --white-color: #fff;
+  --black-color: #000;
+  /* textos */
+  --weight-title: 800;
+  --weight-paragraph: 400;
+}
+header {
+  background-color: var(--primary-color);
+}
+/* menu */
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo #titulo-logo {
+  font-size: 2rem;
+  font-family: 'Kumbh Sans';
+  color: var(--green-less);
+  margin-left: 15px;
+  font-weight: var(--weight-title);
+}
+
+.img-logo {
+  width: 100px;
+}
+
+.menu-top ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding-top: 15px;
+}
+
+.menu-item {
+  width: fit-content;
+  height: fit-content;
+}
+
+.menu-item_link {
+  display: inline-flex;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: transform 0.4s ease;
+}
+
+.menu-item_link:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1.1)
+}
+
+.redes {
+  display: flex;
+  gap: 40px;
+}
+.redes a {
+  color: var(--white-color);
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.redes a:nth-of-type(1) {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 2s;
+}
+/* BANNER */
+.banner {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  filter: brightness(70%);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 6rem;
+  text-shadow: 2px 2px #2C513C;
+  margin-left: 10vw;
+  width: 60rem;
+}
+
+strong {
+  margin-left: 10px;
+  font-weight: var(--weight-title);
+}
