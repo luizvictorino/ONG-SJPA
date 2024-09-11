@@ -94,7 +94,7 @@ strong {
 
 /* section adocao */
 .adocao {
-    background-image: url('../images/img/backgoundAdocao.png');
+    background-image: url('../images/banners/backgoundAdocao.png');
     display: flex;
     flex-flow: row wrap;
     background-repeat: no-repeat;
@@ -120,12 +120,11 @@ strong {
     background-color: inherit;
     border: none;
     border-radius: 20px;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
 }
-
 
 .animate {
     display: flex;
@@ -141,9 +140,28 @@ strong {
 
 .card-title {
     display: block;
-    font-size: 35px;
-    color: var(--white-color);
+    font-size: 48px;
+    color: var(--black-color);
     font-weight: var(--weight-title);
+}
+
+.card-adote,
+.card-apadrinhe,
+.card-doe {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-adote {
+    background-image: url('../images/img/card-adote.webp');
+}
+
+.card-apadrinhe {
+    background-image: url('../images/img/card-apadrinhe.png');
+}
+
+.card-doe {
+    background-image: url('../images/img/card-doe.jpg');
 }
 
 /* caroucel animas description */
@@ -154,18 +172,10 @@ strong {
 
 .card-adote,
 .card-apadrinhe,
-.dog-description {
-    background-image: url('../images/imagePets/pet_resized.jpeg');
+.dog-description,
+.card-doe {
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.card-apadrinhe {
-    background-image: url('../images/imagePets/pet7_resized.jpeg');
-}
-
-.card-doe {
-    background-image: url('../images/imagePets/pet9_resized.jpeg');
 }
 
 .dog-description {
