@@ -25,18 +25,17 @@ strong {
 
 /* section sobre */
 .sobre {
-    background-image: url("../images/img/backgroundSobre.png");
+    background-image: url("../images/banners/backgroundSobre.png");
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    padding: 100px 50px 50px 50px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
+    background-attachment: fixed;
 }
-.sobre-body {
+
+/* .sobre-body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 20% 20% 20%;
@@ -49,9 +48,12 @@ strong {
     padding: 40px 32px;
     margin-top: 50px;
 
-}
-.btn-sobre{
-    display: block;
+} */
+
+.btn-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 300px;
     height: 55px;
     margin: 80px auto;
@@ -59,38 +61,35 @@ strong {
     font-size: 1.5rem;
     letter-spacing: 3px;
     background-color: #2C513C;
-    border: 2px solid #2C513C;
     font-weight: bold;
+    border: none;
     border-radius: 10px;
     text-transform: uppercase;
 }
+
 .btn-sobre:hover{
     background-color: #1B934F;
     color: #fff;
 }
 
 .title-sessao {
-    grid-area: titulo;
-    color: #64BDB1;
-    font-size: 60px;
+    color: var(--primary-color);
     font-weight: var(--weight-title);
-    margin-top: 90px;
-   
+    font-size: 72px;
 }
 
 .sessao-parag {
     color: var(--black-color);
     grid-area: paragh;
     font-size: 25px;
-    width: 95%;
-    margin-top: 70px;
+    width: 98%;
 }
 
 .img-sobre {
     grid-area: img;
-    height: 60vh;
+    width: 35rem;
+    height: 30rem;
     border-radius: 2%;
-    
 }
 
 /* section adocao */
