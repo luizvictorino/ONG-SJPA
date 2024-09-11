@@ -178,13 +178,11 @@ strong {
 
 .dog-description {
     background: url('../images/banners/background-dogDescription.png') no-repeat right / cover;
-
     height: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 80px;
-
 }
 
 section .img-dogDescription {
@@ -201,12 +199,12 @@ section .img-dogDescription {
 
 .fa-arrow-left {
     color: #fff;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 5px 5px 2px #000;
 }
 
 .fa-arrow-right {
     color: #000;
-    text-shadow: -2px 2px 5px #000;
+    text-shadow: -5px 5px 5px #020202;
 }
 
 .arrowAdot {
