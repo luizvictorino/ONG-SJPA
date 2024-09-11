@@ -82,6 +82,7 @@ strong {
     color: var(--black-color);
     grid-area: paragh;
     font-size: 25px;
+    font-weight: 500;
     width: 98%;
 }
 
@@ -166,30 +167,29 @@ strong {
 
 /* caroucel animas description */
 .caroucelAnimal {
-    z-index: 2;
-    background-color: #fff;
+    z-index: 1;
+    height: 800px;
 }
 
-.card-adote,
-.card-apadrinhe,
-.dog-description,
-.card-doe {
+.dog-description {
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .dog-description {
-    background-image: url('../images/img/background-dogDescription.png');
+    background: url('../images/banners/background-dogDescription.png') no-repeat right / cover;
+
+    height: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 80px;
 
 }
 
 section .img-dogDescription {
-    width: 54%;
-    height: 90vh;
+    width: 56vw;
+    height: 800px;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
