@@ -238,7 +238,7 @@ section .img-dogDescription {
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    z-index: 20;
+    z-index: 1;
     position: relative;
     justify-content: center;
     gap: 70px;
@@ -295,10 +295,19 @@ footer .redes {
     text-align: center;
 }
 
+.autorais span {
+    font-size: 28px;
+}
+
 .redes a {
+    font-size: 24px;
     display: inline-block;
     animation: bounce;
     animation-duration: 1s;
+}
+
+.redes h2 {
+    font-size: 18px;
 }
 
 .redes a:nth-of-type(1) {
