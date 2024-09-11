@@ -19,38 +19,56 @@ Quer dar uma espiadinha no que está por vir? Confira a versão ao vivo clicando
 * **Visualização de Pets**: Veja os pets disponíveis para adoção.
 * **Cadastro para Adoção**: Inscreva-se para adotar um pet.
 * **Apadrinhamento**: Contribua financeiramente para o cuidado de um pet específico.
-* ****oações: Faça uma doação para ajudar a ONG a continuar sua missão.
+* **Doações**: Faça uma doação para ajudar a ONG a continuar sua missão.
 * **Histórias Felizes**: Leia sobre adoções bem-sucedidas.
-* **Seja um Voluntário***: Cadastre-se para ajudar a ONG.
+* **Seja um Voluntário**: Cadastre-se para ajudar a ONG.
 
 ## 🛠️ Tecnologias Utilizadas
-Este projeto foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias: 
 
-* 🌐 `HTML5`
-* 🎨 `CSS3`
-* ⚙️ `JavaScript` 
+[![My Skills](https://skillicons.dev/icons?i=html)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev) 
+[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) 
+[![My Skills](https://skillicons.dev/icons?i=vite)](https://skillicons.dev) 
 
-## Estrutura de Pastas
-Aqui está um resumo da estrutura de pastas do projeto:
+
+
+## Execução da Aplicação
+
+Para executar a aplicação, siga os passos abaixo:
+
+1. Clone o repositório:
 
 ```
-ONG-SJPA/
-│
-├── index.html            # Página principal do site
-├── index.css             # Estilos personalizados
-├── index.js              # Lógica do site
-└── assets/
-    ├── images/
-        ├── imagePets/    # Fotos dos pets disponíveis para adoção
-        ├── img/          # Outras imagens
-    ├── videos/
-        ├──videoPet       # Videos dos pets
+https://github.com/luizvictorino/ONG-SJPA.git
 ```
+2. Navegue até o diretório do projeto:
+
+```
+cd ong-sjpa
+```
+3. Instale as dependências:
+
+```
+npm install
+```
+4. Execute a aplicação:
+
+```
+npm run dev
+```
+
+   A aplicação estará disponível em http://localhost:5173/
+
+   
+  
 
 ## 📸 Algumas Fotos do Projeto
 Uma prévia da nossa página inicial, cheia de pets fofos esperando por você!
 ```
 campo para incluir as fotos dos pets
+
 ```
 
 Pronto para adotar ou apadrinhar? Escolha o seu novo melhor amigo aqui!

@@ -6,7 +6,7 @@ const Carrocel = () =>{
       <div className="carousel-inner">
         <div className="carousel-item">
           <section className="dog-description">
-            <img src={`${process.env.PUBLIC_URL}images/imagePets/pet(10).jpeg`} className="img-dogDescription" alt="Descrição do animal"/>
+            <img src={`images/imagePets/pet(10).jpeg`} className="img-dogDescription" alt="Descrição do animal"/>
             <div className="dog-descri_body">
               <h3 className="title-sessao">Meu nome é José</h3>
               <p className="sessao-parag">
@@ -18,7 +18,7 @@ const Carrocel = () =>{
         </div>
         <div className="carousel-item">
           <section className="dog-description">
-            <img src={`${process.env.PUBLIC_URL}images/imagePets/pet(18).jpeg`} className="img-dogDescription" alt=""/>
+            <img src={`images/imagePets/pet(18).jpeg`} className="img-dogDescription" alt=""/>
             <div className="dog-descri_body">
               <h3 className="title-sessao">Meu nome é Ivan</h3>
               <p className="sessao-parag">
@@ -29,7 +29,7 @@ const Carrocel = () =>{
         </div>
         <div className="carousel-item active">
           <section className="dog-description">
-            <img src={`${process.env.PUBLIC_URL}images/imagePets/pet(9).jpeg`} className="img-dogDescription" alt=""/>
+            <img src={`images/imagePets/pet(9).jpeg`} className="img-dogDescription" alt=""/>
             <div className="dog-descri_body">
               <h3 className="title-sessao">Meu nome é José</h3>
               <p className="sessao-parag">
@@ -40,7 +40,7 @@ const Carrocel = () =>{
         </div>
         <div className="carousel-item">
           <section className="dog-description">
-            <img src={`${process.env.PUBLIC_URL}images/imagePets/pet(24).jpeg`} className="img-dogDescription" alt=""/>
+            <img src={`images/imagePets/pet(24).jpeg`} className="img-dogDescription" alt=""/>
             <div className="dog-descri_body">
               <h3 className="title-sessao">Meu nome é José</h3>
               <p className="sessao-parag">
