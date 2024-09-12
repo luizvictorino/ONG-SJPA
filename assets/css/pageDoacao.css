@@ -42,42 +42,59 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url('./../../assets/images/img/background-doacao.png');
+    background-image: url(../images/banners/fundo.svg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 90vh;
+    height: 110vh;
 }
 .card_doacao-valor{
+    margin-top: 30vh;
     position: relative;
-    background-color: #5EB867;
-    border-radius: 33px;
+    background-color: #355844;
+    border: 0.1px solid rgb(22, 22, 22);
+    border-radius: 40px;
+    box-shadow: 0px 0px 8px rgb(44, 44, 44);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 242px;
-    height: 160px;
-    color:  var(--black-color);
+    width: 424px;
+    height: 351px;
+    color: white;
+    font-size: 23px;
 }
 .card_doacao-valor:hover{
-    box-shadow: 2px 4px 6px #d1d1d12d;  
     animation: pulse; 
     animation-duration: 1.4s; 
     cursor: pointer;
 }
+
 .card-text{
     display: block;
     position: absolute;
     top: 0;
     margin-top: -25px;
-    background-color: var(--white-color);
+    background-color: #65558F;
+    box-shadow: 0px 0px 8px rgb(44, 44, 44);
     border-radius: 1rem;
     padding: 5px 10px;
+    color: white !important;
+    font-size: 1.4rem;
 }
+
+
 .card_valor{
-    font-size: 2.7rem;
+    font-size: 3.2rem;
     font-weight: var(--weight-title);
+    margin-bottom: 0.7em;
 }
+
+
+.card_valor span {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
 .card_descricao{
     text-align: center;
     padding: 0 5px;
@@ -92,14 +109,14 @@
     margin: 0 auto;
     width: 20%;
     height: 8vh;
-    background-color: white;
+    background-color: #65558F;
     justify-content: center ;
     align-items: center;
     border-radius: 1rem;
-    color: #000;
+    color: white;
 }
 .btnDoacao_outrosValores:hover{
-    background-color: #5EB867;
+    background-color: #7867a1;
     color: var(--white-color);
     box-shadow: 2px 4px 6px #d1d1d12d;  
     animation: pulse; 
