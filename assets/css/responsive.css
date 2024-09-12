@@ -1,4 +1,21 @@
 @media (max-width:1300px) {
+
+    .banner {
+        height: 70vh;
+        align-items: center;
+        filter: brightness(90%);
+        padding-top: 80px;
+    }
+
+    .banner h1 {
+        font-size: 4rem;
+    }
+    
+    strong {
+        margin-left: 10px;
+        font-weight: var(--weight-title);
+    }
+
     .menu-top {
         position: fixed;
         top: 0;

@@ -167,49 +167,38 @@ strong {
 
 /* caroucel animas description */
 .caroucelAnimal {
-    z-index: 1;
-    height: 800px;
+    width: 100%;
+    /* height: 900px; */
+    /* height: 80vh; */
+    /* z-index: 1;
+    height: 700px; */
 }
 
 .dog-description {
+    background-image: url('../images/banners/background-dogDescription.png');
     background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.dog-description {
-    background: url('../images/banners/background-dogDescription.png') no-repeat right / cover;
-    height: 800px;
+    background-size: cover;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-right: 80px;
+    justify-content: space-between;
 }
 
-section .img-dogDescription {
-    width: 54vw;
-    height: 800px;
-    border-top-right-radius: 500px;
+.dog-description .img-dogDescription {
+    width: 150rem;
+    height: 600px;
     border-bottom-right-radius: 500px;
+    border-top-right-radius: 500px;
 }
 
 .dog-descri_body {
-    width: 40%;
+    padding: 0 150px 0 50px;
 }
 
 
-.fa-arrow-left {
-    color: #fff;
-    text-shadow: 5px 5px 2px #000;
-}
-
+.fa-arrow-left,
 .fa-arrow-right {
-    color: #000;
-    text-shadow: -5px 5px 5px #020202;
-}
-
-.arrowAdot {
-    margin-right: 20px;
-    padding: 10px;
+color: #000;
+font-size: 50px;
 }
 
 .arrowAdot:hover {
@@ -217,17 +206,6 @@ section .img-dogDescription {
     margin: 0 1rem;
     animation: tada;
     animation-duration: 2s;
-}
-
-.carousel {
-    width: 100% !important;
-    height: 50vh;
-    margin-bottom: 150px;
-}
-
-.carousel-control {
-    width: fit-content;
-    top: 40%;
 }
 
 /* section voluntarios */
