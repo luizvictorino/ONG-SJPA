@@ -75,33 +75,28 @@ ONG-SJPA/
 
 # 📸 Algumas Fotos do Projeto
 
-## Prévida da Home Page
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <img src="./assets/images/Project/homePage-inicio.png" style="width: 800px; height: 500px; object-fit: cover;">
-    <h2>Navbar menu banner</h2>
+    <h4>Navbar menu banner</h4>
+    <img src="./assets/images/Project/homePage-inicio.png" style="width: 1000px; height: 500px; object-fit: cover;">
 </div>
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h2>History Ong</h2>
-    <img src="./assets/images/Project/homePage-histotia.png" style="width: 800px; height: 500px; object-fit: cover;">
+    <h4>History Ong</h4>
+    <img src="./assets/images/Project/homePage-histotia.png" style="width: 1000px; height: 500px; object-fit: cover;">
 </div>
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <img src="./assets/images/Project/homePage-ajuda.png" style="width: 800px; height: 500px; object-fit: cover;">
-    <h2>Help Pets</h2>
+     <h4>Help Pets</h4>
+    <img src="./assets/images/Project/homePage-ajuda.png" style="width: 1000px; height: 500px; object-fit: cover;">
 </div>
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h2>Responsive menu</h2>
-    <img src="./assets/images/Project/menu-responsive.png" style="width: 800px; height: 500px; object-fit: cover;">
+    <h4>Responsive menu</h4>
+    <img src="./assets/images/Project/menu-responsive.png" style="width: 500px; height: 500px; object-fit: cover;">
 </div>
+<br><br>
 
-
-
-
-
- `Pronto para adotar ou apadrinhar? Escolha o seu novo melhor amigo aqui!`
 
 ## 👥 Desenvolvedores
 Este projeto incrível foi desenvolvido por:
