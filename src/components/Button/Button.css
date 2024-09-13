@@ -1,0 +1,27 @@
+.button {
+  border-radius: 50px;
+  border: none;
+  column-gap: 10px;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 25px 50px;
+  transition: background-color 0.3s ease;
+}
+
+/*PRIMARY*/
+/*BOTÃO MAIS INFORMAÇÕES*/
+
+.button.primary {
+  background-color: rgba(101, 85, 143, 1);
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button.primary:hover {
+  background-color: rgb(143, 128, 182);
+  box-shadow: 5px 10px rgba(202, 187, 241, 0.712);
+}
