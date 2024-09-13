@@ -1,38 +1,38 @@
 .banner {
-    display: flex;
-    background-image: url('../images/banners/7c741c494705_sjpa03.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    filter: brightness(90%);
+  display: flex;
+  background-image: url("../images/banners/7c741c494705_sjpa03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  filter: brightness(90%);
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 6rem;
-    text-shadow: 10px 5px 5px #2C513C;
-    margin-left: 10vw;
-    width: 60rem;
+  font-weight: 400;
+  font-size: 6rem;
+  text-shadow: 10px 5px 5px #2c513c;
+  margin-left: 10vw;
+  width: 60rem;
 }
 
 strong {
-    margin-left: 10px;
-    font-weight: var(--weight-title);
+  margin-left: 10px;
+  font-weight: var(--weight-title);
 }
 
 /* section sobre */
 .sobre {
-    background-image: url("../images/banners/backgroundSobre.png");
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 100px 50px 50px 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url("../images/banners/backgroundSobre.png");
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 100px 50px 50px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* .sobre-body {
@@ -51,313 +51,308 @@ strong {
 } */
 
 .btn-sobre {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 55px;
-    margin: 80px auto;
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    background-color: #2C513C;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 55px;
+  margin: 80px auto;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  background-color: #2c513c;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 
-.btn-sobre:hover{
-    background-color: #1B934F;
-    color: #fff;
+.btn-sobre:hover {
+  background-color: #1b934f;
+  color: #fff;
 }
 
 .title-sessao {
-    color: var(--primary-color);
-    font-weight: var(--weight-title);
-    font-size: 72px;
+  color: var(--primary-color);
+  font-weight: var(--weight-title);
+  font-size: 72px;
 }
 
 .sessao-parag {
-    color: var(--black-color);
-    grid-area: paragh;
-    font-size: 25px;
-    font-weight: 500;
-    width: 98%;
+  color: var(--black-color);
+  grid-area: paragh;
+  font-size: 25px;
+  font-weight: 500;
+  width: 98%;
 }
 
 .img-sobre {
-    grid-area: img;
-    width: 35rem;
-    height: 30rem;
-    border-radius: 2%;
+  grid-area: img;
+  width: 35rem;
+  height: 30rem;
+  border-radius: 2%;
 }
 
 /* section adocao */
 .adocao {
-    background-image: url('../images/banners/backgoundAdocao.png');
-    display: flex;
-    flex-flow: row wrap;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    padding-bottom: 50px;
+  background-image: url("../images/banners/backgoundAdocao.png");
+  display: flex;
+  flex-flow: row wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  padding-bottom: 50px;
 
-    align-items: center;
-    justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .adocao .title-sessao {
-    color: var(--white-color);
-    display: block;
-    width: 100%;
-    text-align: center;
+  color: var(--white-color);
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .card {
-    display: flex;
-    position: relative;
-    background-color: inherit;
-    border: none;
-    border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  position: relative;
+  background-color: inherit;
+  border: none;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .animate {
-    display: flex;
-    animation: bounce;
-    animation-duration: 1.7s;
+  display: flex;
+  animation: bounce;
+  animation-duration: 1.7s;
 }
 
 .card:hover {
-    display: flex;
-    animation: bounce;
-    animation-duration: 1s;
+  display: flex;
+  animation: bounce;
+  animation-duration: 1s;
 }
 
 .card-title {
-    display: block;
-    font-size: 48px;
-    color: var(--black-color);
-    font-weight: var(--weight-title);
+  display: block;
+  font-size: 48px;
+  color: var(--black-color);
+  font-weight: var(--weight-title);
 }
 
 .card-adote,
 .card-apadrinhe,
 .card-doe {
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .card-adote {
-    background-image: url('../images/img/card-adote.webp');
+  background-image: url("../images/img/card-adote.webp");
 }
 
 .card-apadrinhe {
-    background-image: url('../images/img/card-apadrinhe.png');
+  background-image: url("../images/img/card-apadrinhe.png");
 }
 
 .card-doe {
-    background-image: url('../images/img/card-doe.jpg');
+  background-image: url("../images/img/card-doe.jpg");
 }
 
 /* caroucel animas description */
 .caroucelAnimal {
-    width: 100%;
-    /* height: 900px; */
-    /* height: 80vh; */
-    /* z-index: 1;
+  width: 100%;
+  /* height: 900px; */
+  /* height: 80vh; */
+  /* z-index: 1;
     height: 700px; */
 }
 
 .dog-description {
-    background-image: url('../images/banners/background-dogDescription.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-image: url("../images/banners/background-dogDescription.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .dog-description .img-dogDescription {
-    width: 150rem;
-    height: 600px;
-    border-bottom-right-radius: 500px;
-    border-top-right-radius: 500px;
+  width: 150rem;
+  height: 600px;
+  border-bottom-right-radius: 500px;
+  border-top-right-radius: 500px;
 }
 
 .dog-descri_body {
-    padding: 0 150px 0 50px;
+  padding: 0 150px 0 50px;
 }
-
 
 .fa-arrow-left,
 .fa-arrow-right {
-color: #000;
-font-size: 50px;
+  color: #000;
+  font-size: 50px;
 }
 
 .arrowAdot:hover {
-    display: inline-block;
-    margin: 0 1rem;
-    animation: tada;
-    animation-duration: 2s;
+  display: inline-block;
+  margin: 0 1rem;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 /* section voluntarios */
 .voluntarios {
-    background-image: url('../images/banners/backgound-voluntario.svg');
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 1;
-    position: relative;
-    justify-content: center;
-    gap: 70px;
-    padding-bottom: 70px !important;
+  background-image: url("../images/banners/backgound-voluntario.svg");
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
+  justify-content: center;
+  gap: 70px;
+  padding-bottom: 70px !important;
 }
 
 .voluntarios .title-sessao {
-    display: block;
-    width: 100%;
-    color: var(--primary-color);
-    text-align: center;
-    margin-top: 40px;
+  display: block;
+  width: 100%;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 40px;
 }
 
 figcaption {
-    font-weight: var(--weight-title);
-    color: #1B934F;
-    text-align: center;
-    font-size: 2rem;
+  font-weight: var(--weight-title);
+  color: #1b934f;
+  text-align: center;
+  font-size: 2rem;
 }
 
 /* Section Footer */
 footer {
-    display: flex;
-    background-color: #1B934F;
-    justify-content: space-between;
-    padding: 20px 32px;
-    align-items: center;
-
+  display: flex;
+  background-color: #1b934f;
+  justify-content: space-between;
+  padding: 20px 32px;
+  align-items: center;
 }
 
 .title-redes {
-    width: 100%;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 0;
-
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 footer a {
-    display: inline-block;
+  display: inline-block;
 }
 
 footer .redes {
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  gap: 5px;
 }
 
 .autorais {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .autorais span {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .redes a {
-    font-size: 24px;
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 1s;
+  font-size: 24px;
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;
 }
 
 .redes h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .redes a:nth-of-type(1) {
-    display: inline-block;
-    animation: bounce;
-    animation-duration: 2s;
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 2s;
 }
 
-#cor{
-    background: #64BDB1;
-    height: 28rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
+#cor {
+  background: #64bdb1;
+  height: 28rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#cor img{
-    max-width: 100%;
-    object-fit: cover;
-    height: auto;
-    margin-left: 10rem;
+#cor img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  margin-left: 10rem;
 }
 
-.fundo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('/assets/images/img/backgound-voluntario.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    object-fit: cover;
-}   
+.fundo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/assets/images/banners/backgound-voluntario.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  object-fit: cover;
+}
 
 .fundo h2 {
-    color: #000;
-    font-size: 2rem;
-    padding-left: 3rem;
+  color: #000;
+  font-size: 2rem;
+  padding-left: 3rem;
 }
 
-.fundo p{
-    color: #000;
-    font-size: 2rem;
-    font-family: inherit;
-    font-weight: 500;
+.fundo p {
+  color: #000;
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 500;
 }
 
 .fundo button {
-    display: block;
-    width: 300px;
-    height: 55px;
-    margin: 80px auto;
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    background-color: #2C513C;
-    border: 2px solid #2C513C;
-    font-weight: bold;
-    border-radius: 10px;
-    text-transform: uppercase;
+  display: block;
+  width: 300px;
+  height: 55px;
+  margin: 80px auto;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  background-color: #2c513c;
+  border: 2px solid #2c513c;
+  font-weight: bold;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 
 .fundo button:hover {
-    background-color: #1B934F;
-    color: #fff;
+  background-color: #1b934f;
+  color: #fff;
 }
 
-.fundo .fa-brandsfa-whatsappfa-2xm{
-    color: white;
+.fundo .fa-brandsfa-whatsappfa-2xm {
+  color: white;
 }
