@@ -1,13 +1,14 @@
 <p align="center">
-    <img src="./assets/images/img/logo-ong.webp" width="600">
+    <img src="./assets/images/icons/logo-ong.webp" width="700">
 </p>
 <p align="center">Preview <b>ONG SJPA</b></p>
+
 
 # 🐾 ONG Sociedade Juizforense de Protecao Aos Animais e Ao Meio Ambiente (ONG-SJPA) 🐾
 Seja bem-vindo(a) ao repositório oficial da **`ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA)`** Este projeto foi criado com muito carinho para ajudar os peludinhos que estão em busca de um lar cheio de amor e carinho. 🏠💛
 
 ## 📝 Descrição
-Este site foi desenvolvido para a **`ONG-SJPA`** com o objetivo de conectar pets abandonados a pessoas dispostas a adotá-los. Aqui, você encontrará uma interface amigável para visualizar os animais disponíveis para adoção, conhecer mais sobre a história da ONG, e explorar as diversas formas de contribuir para essa causa. Seja adotando, apadrinhando um pet ou fazendo uma doação, você pode fazer a diferença na vida desses animais! 🐾
+Este site foi desenvolvido para a **`ONG-SJPA`** com o objetivo de conectar pets abandonados a pessoas dispostas a adotá-los. Aqui, você encontrará uma interface amigável para visualizar os animais disponíveis para adoção, conhecer mais sobre a história da ONG, e explorar formas de contribuir para essa causa. Seja adotando, apadrinhando um pet ou fazendo uma doação, você pode fazer a diferença na vida desses animais! 🐾
 
 ## 🎯 Para que serve?
 A plataforma serve como um elo entre os pets abandonados e os futuros tutores, padrinhos e doadores. Além de visualizar os pets disponíveis para adoção, os usuários podem escolher apadrinhar um pet, contribuindo financeiramente para o seu cuidado, ou fazer uma doação para ajudar a ONG a continuar seu trabalho incrível.
@@ -15,45 +16,92 @@ A plataforma serve como um elo entre os pets abandonados e os futuros tutores, p
 ## 👀 Demonstração
 Quer dar uma espiadinha no que está por vir? Confira a versão ao vivo clicando [aqui](https://luizvictorino.github.io/ONG-SJPA/)! 🌐
 
+
 ## 💡 Funcionalidades
-* **Visualização de Pets**: Veja os pets disponíveis para adoção.
-* **Cadastro para Adoção**: Inscreva-se para adotar um pet.
-* **Apadrinhamento**: Contribua financeiramente para o cuidado de um pet específico.
-* ****oações: Faça uma doação para ajudar a ONG a continuar sua missão.
-* **Histórias Felizes**: Leia sobre adoções bem-sucedidas.
-* **Seja um Voluntário***: Cadastre-se para ajudar a ONG.
+
+ **Visualização de Pets** 🐶: Navegue pela nossa página de adoção e conheça todos os pets adoráveis disponíveis para encontrar um novo lar. Se um desses peludinhos conquistar seu coração, basta preencher o formulário de adoção para iniciar o processo.
+
+* **Cadastro para Adoção** 📝: Quer adotar um pet? A página de adoção oferece um formulário simples e direto para você começar a jornada de dar um novo lar a um amigo fiel.
+
+* **Apadrinhamento e Voluntariado** 🤝: Na página de apadrinhamento e voluntariado, você pode fazer mais do que apenas adotar. Acesse o link do nosso grupo de WhatsApp para se tornar um apadrinhador, contribuindo financeiramente para o cuidado de um pet específico, ou se inscreva como voluntário para ajudar a ONG de diversas formas.
+
+* **Doações** 💸: Sua contribuição pode fazer toda a diferença! Na página de doações, você pode optar por um valor fixo ou um valor personalizado de sua escolha, facilitando o pagamento através de Pix. Ajude-nos a continuar nossa missão com a sua generosidade!
+
+* **Histórias Felizes** 🌟: Descubra e se inspire com as histórias de adoções bem-sucedidas. Veja como nossos pets têm encontrado novos lares e como sua ajuda pode criar finais felizes.
+
+Essas funcionalidades foram pensadas para tornar sua experiência mais rica e permitir que você faça a diferença de várias maneiras. Junte-se a nós e ajude a transformar vidas!
 
 ## 🛠️ Tecnologias Utilizadas
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-* 🌐 `HTML5`
-* 🎨 `CSS3`
-* ⚙️ `JavaScript` 
+* 🌐 **HTML5**
+* 🎨 **CSS3**
+* ⚙️ **JavaScript**
 
 ## Estrutura de Pastas
 Aqui está um resumo da estrutura de pastas do projeto:
 
 ```
 ONG-SJPA/
-│
-├── index.html            # Página principal do site
-├── index.css             # Estilos personalizados
-├── index.js              # Lógica do site
-└── assets/
+|
+├── assets/
+    ├── css/
+        ├── home.css            # Estilização page home
+        ├── index.css           # Estilização menu navegação e mobile
+        ├── modal.css           # Estilização dos componentes
+        ├── pageDoacao.css      # Estilização page doação
+        ├── pageSobre.css       # Estilização page sobre
+        ├── responsive.css      # Estilização de responsividade
     ├── images/
-        ├── imagePets/    # Fotos dos pets disponíveis para adoção
-        ├── img/          # Outras imagens
-    ├── videos/
-        ├──videoPet       # Videos dos pets
-```
+        ├── banners/            # Banners de fundo
+        ├── icons/              # Imagens de icones e logos
+        ├── img /               # Imagens diversas
+        ├── pets/               # Imagens dos pets
+    ├── Pages/
+        ├── doacao.html         # Page de doação 
+        ├── sobre.html          # page sobre
+        ├── voluntario.html     # Page voluntários
+    ├── scripts/
+        ├──index.js             # Movimento interação com os bottões
+        ├── modal.js            # Interação forma de doação
+        ├── responsive.js       # Movimentação de responsividade
+    ├── videos/                 # Videos dos pets      
+    ├── .gitignore              # Arquivos ignorados 
+    ├── index.html              # Página principal do site
+    └── README.md               # Sobre o projeto
 
-## 📸 Algumas Fotos do Projeto
-Uma prévia da nossa página inicial, cheia de pets fofos esperando por você!
 ```
-campo para incluir as fotos dos pets
-```
+<br><br><br>
 
-Pronto para adotar ou apadrinhar? Escolha o seu novo melhor amigo aqui!
+# 📸 Algumas Fotos do Projeto
+
+## Prévida da Home Page
+
+<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
+    <img src="./assets/images/Project/homePage-inicio.png" style="width: 800px; height: 500px; object-fit: cover;">
+    <h2>Navbar menu banner</h2>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
+    <h2>History Ong</h2>
+    <img src="./assets/images/Project/homePage-histotia.png" style="width: 800px; height: 500px; object-fit: cover;">
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
+    <img src="./assets/images/Project/homePage-ajuda.png" style="width: 800px; height: 500px; object-fit: cover;">
+    <h2>Help Pets</h2>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
+    <h2>Responsive menu</h2>
+    <img src="./assets/images/Project/menu-responsive.png" style="width: 800px; height: 500px; object-fit: cover;">
+</div>
+
+
+
+
+
+ `Pronto para adotar ou apadrinhar? Escolha o seu novo melhor amigo aqui!`
 
 ## 👥 Desenvolvedores
 Este projeto incrível foi desenvolvido por:
