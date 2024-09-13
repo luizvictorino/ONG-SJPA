@@ -53,4 +53,37 @@
     button.hamburger {
         display: block;
     }
+
+        /* SOBRE */
+        .sobre {
+            flex-direction: column;
+            height: auto;
+            padding: 0 20px;
+        }
+    
+        .sobre-body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .title-sessao {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+    
+        .img-sobre {
+            display: none;
+        }
+    
+        .sessao-parag {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    
+        .btn-sobre {
+            margin-top: 30px;
+            align-items: center;
+        }
 }
