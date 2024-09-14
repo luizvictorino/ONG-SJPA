@@ -19,9 +19,12 @@
 }
 
 .doacao-descricao img {
-    width: 439px;
-    height: 239px;
+    width: 570px;
+    height: auto;
+    float: left; 
+    margin-right: 10em;
 }
+
 
 .descricao {
     width: 40%;
@@ -40,6 +43,8 @@
 
 .doacao-descricao .sessao-parag {
     color: var(--white-color);
+    text-align: justify;
+    margin-top: 1em;
 }
 
 /* section valores */
@@ -232,3 +237,4 @@
         background-position: 0% 50%; 
     }
 }
+
