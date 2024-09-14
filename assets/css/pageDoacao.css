@@ -63,23 +63,26 @@
     margin-top: 5vh;
 }
 
+
 .doacao_valores button {
     width: 20rem;
     height: 5.6rem;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #doarQualquerValor input {
     width: 18rem;
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 #doarQualquerValor span {
     position: relative;
     bottom: 3px;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .valor-personalizado {
@@ -94,7 +97,7 @@
 .cards {
     display: flex;
     flex-direction: row;
-    gap: 4.5em;
+    gap: 6.6em;
     margin-top: 4.5em;
 }
 
@@ -104,7 +107,7 @@
     background-color: #355844;
     border: 0.1px solid rgb(22, 22, 22);
     border-radius: 40px;
-    box-shadow: 0px 0px 8px rgb(44, 44, 44);
+    box-shadow: 0px 5px 8px rgba(44, 44, 44, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,13 +116,42 @@
     height: 351px;
     color: white;
     font-size: 23px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1s ease forwards;
 }
 
 .card_doacao-valor:hover {
-    animation: pulse;
-    animation-duration: 1.4s;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
     cursor: pointer;
 }
+
+/* Animação */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card_doacao-valor:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.card_doacao-valor:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.card_doacao-valor:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
 
 .card-text {
     display: block;
@@ -158,10 +190,12 @@
 }
 
 .container-btn {
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     margin-top: 3em;
     margin-bottom: 4em;
+    padding: 0;
 }
 
 .btnDoacao_outrosValores {
@@ -169,17 +203,32 @@
     margin: 0 auto;
     width: 20%;
     height: 8vh;
-    background-color: #65558F;
+    background: linear-gradient(90deg, 
+        #4B0082, #8A2BE2, #9400D3, #7520a0, #582866);
+    background-size: 400%; 
+    box-shadow: 0px 5px 8px rgba(44, 44, 44, 0.5);
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
     color: white;
+    font-weight: bold;
+    transition: background-position 0.4s ease, box-shadow 0.3s ease;
+    animation: rainbowPurpleAnimation 3s ease infinite; 
 }
 
 .btnDoacao_outrosValores:hover {
-    background-color: #7867a1;
     color: var(--white-color);
-    box-shadow: 2px 4px 6px #d1d1d12d;
-    animation: pulse;
-    animation-duration: 1.4s;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes rainbowPurpleAnimation {
+    0% {
+        background-position: 0% 50%; 
+    }
+    50% {
+        background-position: 100% 50%; 
+    }
+    100% {
+        background-position: 0% 50%; 
+    }
 }
