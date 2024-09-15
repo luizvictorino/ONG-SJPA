@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./../../assets/images/img/favicon-32x32.png">
+  <meta name="description"
+    content="Descubra a SJPA, uma ONG com mais de 36 anos dedicada ao resgate e cuidado de animais abandonados. Ajude-nos a garantir um futuro seguro e cheio de amor para mais de 450 cães e gatos. Cada doação faz a diferença!">
+  <meta http-equiv="content-language" content="pt-BR">
+  <meta name="author"
+    content="Douglas, Erik Signori, Harison Bastos, Luiz Victorino, Ronildo Maciel, Vinicius Cirilo, Wagner">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://kit.fontawesome.com/93e62dc2be.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./../css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <title>A sua doação trasnforma vidas</title>
+</head>
+
+<body>
+  <header>
+    <section class="menu-top container-fluid">
+      <div class="container_logo">
+        <a href="../../index.html" class="link_logo">
+          <img src="../images/icons/logo2.svg" class="img-logo" id="logo" alt="logo">
+          <span class="logo-text"> ONG<strong>SJPA</strong></span>
+        </a>
+      </div>
+      <div class="container_menu-mobile">
+          <i class="menu-top_mobile fa-solid  fa-bars fa-2xl"></i>
+      </div>
+       <div class="nav-menu menu-top-mobile_none menu-top-mobile_aparence">
+          <nav>
+              <ul>
+                <li class="menu-item menu_link-doacao animate__animated "><a href="../../index.html" class="menu-item_link animate__animated">Home</a></li>
+                  <li class="menu-item menu_link-Apadrinhe animate__animated "><a href="./SecaoAdocao-Apadrinhamento.html" class="menu-item_link">Apadrinhe</a></li>
+                  <li class="menu-item menu_link-Adote animate__animated "><a href="##" class="menu-item_link">Adote</a></li>
+                  <li class="menu-item menu_link-sobre animate__animated "><a href="./sobre.html" class="menu-item_link">Quem somos</a></li>
+              </ul>
+                  
+          </nav> 
+          <div class="redes menu-top-mobile_none menu-top-mobile_aparence">
+              <a href="https://api.whatsapp.com/send?phone=553299655493" target="_blank"><i class="fa-brands animate__animated  fa-whatsapp fa-2xl"></a></i>
+              <a href="https://www.instagram.com/ong_sjpa/?igsh=MTR0cWNmM2hxbmpnbA%3D%3D" target="_blank"><i class="fa-brands animate__animated fa-instagram fa-2xl"></i></a>
+          </div>
+       </div> 
+    </section>
+  </header>
+  <section class="doacao-descricao">
+    <figure>
+      <img src="./../../assets/images/img/image-doacao.png" alt="imagem doação">
+    </figure>
+    <div class="descricao">
+
+      <h2 class="title-sessao"><span>Bem vindo</span>a sessão de doação</h2>
+      <p class="sessao-parag">Sua doação salva vidas! Com sua ajuda, garantimos alimento, cuidados veterinários e um abrigo seguro para cães e gatos resgatados. Cada contribuição faz a diferença para que eles tenham uma chance de encontrar um lar cheio de amor. Doe e mude o destino desses animais! </p>
+    </div>
+  </section>
+  <section class="doacao_valores">
+      <h1>Faça sua doação</h1>
+      <div class="valor-personalizado">
+        <h4>Doe a quantia que quiser:</h4>
+        <button type="submit"  id="doarQualquerValor"> <input type="number"><span>CONFIRMAR</span></button>
+      </div>
+      <div class="cards">
+  <a href="##"  id="doacao25" data-toggle="modal" data-target="#modalDoacao">
+      <article class="card_doacao-valor">
+        <span class="card-text">DOAR AGORA</span>
+        <span class="card_valor"><span>R$  </span>25,00  <span> /mês</span></span>
+        <p class="card_descricao">Com este valor, você alimenta <br>
+        um pet por um dia, <br> garantindo uma refeição saudável</p>
+      </article>
+    </a>
+    <a href="##" id="doacao50" data-toggle="modal" data-target="#modalDoacao">
+      <article class="card_doacao-valor">
+        <span class="card-text">DOAR AGORA</span>
+        <span class="card_valor"><span>R$  </span>50,00  <span> /mês</span></span>
+        <p class="card_descricao">Essa doação ajuda a comprar <br>
+          medicamentos e vacinas, essenciais <br> para a saúde dos animais.</p>
+      </article>
+    </a>
+    <a href="##" id="doacao100" data-toggle="modal" data-target="#modalDoacao">
+      <article class="card_doacao-valor">
+        <span class="card-text">DOAR AGORA</span>
+        <span class="card_valor"><span>R$  </span>100,00  <span> /mês</span></span>
+        <p class="card_descricao">Seu apoio cobre os custos de <br>
+          alimentação e cuidados veterinários <br> de um animal por uma semana.</p>
+      </article>
+    </a>
+  </div>
+    <div class="container-btn"><a href="##" class="btnDoacao_outrosValores" type="button" data-toggle="modal"
+        data-target="#modalDoacao">DOAR OUTROS VALORES</a></div>
+  </section>
+
+
+
+  <!-- Modal doação -->
+  <div class="modal fade" id="modalDoacao" tabindex="-1" role="dialog" aria-labelledby="modalDoacaoLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalDoacaoLabel">Doaçoes por menores que sejam. Salvam vidas!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="toggle-buttons">
+              <button type="button" onclick="toggleSection('pix')">Pix</button>
+              <button type="button" class="cartao" onclick="toggleSection('cartao')">Cartão</button>
+              <button type="button" onclick="toggleSection('boleto')">Boleto</button>
+            </div>
+            <form action="/processar_pagamento" method="post">
+              <!-- Seção Pix -->
+              <div id="pix" class="section active">
+                <img src="https://psfonttk.com/wp-content/uploads/2021/08/logo-pix-banco-central-png-Transparente.png"
+                  class="img-pix" width="400px" alt="img pix">
+                <label for="pix-chave"></label>
+                <img src="" class="img-pix_qr" alt="">
+                <!-- Seção Pix Copia e Cola -->
+                <div class="dropdown">
+                  <button class="btn btn-outline-light  dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pix Copia e Cola
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item qrCodeNum" href="#"></a>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Seção Cartão de Débito ou Crédito -->
+              <div id="cartao" class="section">
+                <h2>Pagamento via Cartão de Débito ou Crédito</h2>
+                <label for="cartao-numero">Número do Cartão:</label>
+                <input type="text" id="cartao-numero" name="cartao-numero" required>
+                <label for="cartao-nome">Nome no Cartão:</label>
+                <input type="text" id="cartao-nome" name="cartao-nome" required>
+                <label for="cartao-validade">Data de Validade:</label>
+                <input type="month" id="cartao-validade" name="cartao-validade" required>
+                <label for="cartao-cvv">CVV:</label>
+                <input type="number" id="cartao-cvv" name="cartao-cvv" required>
+                <button type="submit" id="btnMoadalSubmit">Enviar Pagamento</button>
+              </div>
+
+              <!-- Seção Boleto -->
+              <div id="boleto" class="section">
+                <h2>Pagamento via Boleto</h2>
+                <label for="boleto-nome">Nome Completo:</label>
+                <input type="text" id="boleto-nome" name="boleto-nome" required>
+                <label for="boleto-cpf">CPF:</label>
+                <input type="text" id="boleto-cpf" name="boleto-cpf" required>
+                <button type="submit" id="btnMoadalSubmit">Enviar Pagamento</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="#logo"><img src="/assets/images/icons/logo2.svg" class="logo" alt="logo"></a>
+    <p class="autorais">Todos os direitos reservados a - <br> <small>Copyright © 2024</small></p>
+    <div class="redes">
+      <h6 class="title-redes">Contato</h6>
+      <a href="https://www.instagram.com/ong_sjpa/?igsh=MTR0cWNmM2hxbmpnbA%3D%3D" target="_blank">
+        <i class="fa-brands fa-instagram fa-2"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=553299655493" target="_blank">
+        <i class="fa-brands fa-whatsapp fa-2xm"></i></a>
+    </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script type="module" src="./../script/index.js"></script>
+  <script>
+    function toggleSection(sectionId) {
+      document.querySelectorAll('.section').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+</body>
+
+</html>
+
+

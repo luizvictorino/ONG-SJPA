@@ -1,0 +1,185 @@
+/* section descrição */
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.doacao-descricao {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #5EB867;
+}
+
+.doacao-descricao figure {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+.doacao-descricao img {
+    width: 439px;
+    height: 239px;
+}
+
+.descricao {
+    width: 40%;
+    height: fit-content;
+}
+
+.doacao-descricao h2.title-sessao {
+    color: var(--white-color);
+}
+
+.doacao-descricao h2.title-sessao span {
+    display: block;
+    font-size: 2rem;
+    line-height: 5px;
+}
+
+.doacao-descricao .sessao-parag {
+    color: var(--white-color);
+}
+
+/* section valores */
+.doacao_valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/banners/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+
+
+.doacao_valores h1 {
+    font-size: 4.4rem;
+    font-weight: var(--weight-title);
+    color: white;
+    margin-right: 45%;
+    margin-top: 5vh;
+}
+
+.doacao_valores button {
+    width: 20rem;
+    height: 5.6rem;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#doarQualquerValor input {
+    width: 18rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#doarQualquerValor span {
+    position: relative;
+    bottom: 3px;
+    font-weight: 400;
+}
+
+.valor-personalizado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50%;
+    gap: 1.5rem;
+    margin-bottom: 3vh;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 4.5em;
+}
+
+.card_doacao-valor {
+    margin-top: 2rem;
+    position: relative;
+    background-color: #355844;
+    border: 0.1px solid #161616;
+    border-radius: 40px;
+    box-shadow: 0px 0px 8px #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 351px;
+    color: white;
+    font-size: 23px;
+}
+
+.card_doacao-valor:hover {
+    animation: pulse;
+    animation-duration: 1.4s;
+    cursor: pointer;
+}
+
+.card-text {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: -25px;
+    background-color: #65558F;
+    box-shadow: 0px 0px 8px rgb(44, 44, 44);
+    border-radius: 1rem;
+    padding: 5px 10px;
+    color: white !important;
+    font-size: 1.4rem;
+}
+
+.card_valor {
+    font-size: 3.2rem;
+    font-weight: var(--weight-title);
+    margin-bottom: 0.7em;
+}
+
+.card_valor span {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.card_descricao {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.container-btn {
+    display: block;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+.btnDoacao_outrosValores {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    height: 8vh;
+    background-color: #65558F;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+}
+
+.btnDoacao_outrosValores:hover {
+    background-color: #7867a1;
+    color: var(--white-color);
+    box-shadow: 2px 4px 6px #d1d1d12d;
+    animation: pulse;
+    animation-duration: 1.4s;
+}

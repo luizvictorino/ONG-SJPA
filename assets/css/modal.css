@@ -1,0 +1,90 @@
+#modalDoacao{
+    color: black ;
+}
+.modal-body{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 50px;
+}
+.modal-body .dropdown{
+   margin-bottom: 50px;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+.modal-body h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+.section {
+    display: none;
+    margin-bottom: 20px;
+}
+.section.active {
+    display: block;
+}
+.section h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="month"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #218838;
+}
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.toggle-buttons button {
+    width: 30%;
+    background-color: #007bff;
+}
+.toggle-buttons button:hover {
+    background-color: #0056b3;
+}
+.modal-header .close {
+    width: fit-content;
+}
+.img-pix, .img-pix_qr{
+    display: flex;
+    margin: 20px auto;
+    width:50%;
+}
+.btn-outline-light {
+    color: #000 ;
+}
+.dropdown p{
+    text-align: center;
+}

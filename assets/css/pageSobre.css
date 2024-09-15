@@ -1,0 +1,57 @@
+*{
+    font-style: Kumbh Sans;
+}
+
+.colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    color: #000;
+    gap: 20px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.colaboradores h2,
+.nossosParceiros h2 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.pessoa {
+    display: flex;
+    border: 1px solid #000;
+    height: 50vh;
+    transition: transform 0.4s ease;
+}
+
+.pessoa:hover,
+.parceiro:hover {
+    transform: scale(1.1);
+    animation: none !important;
+}
+
+.nossosParceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 16px;
+}
+
+.nossosParceiros .parceiro {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 16px;
+    transition: transform 0.4s ease;
+}
+
+.parceiro img {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 16px;
+    width: 350px;
+    height: 200px;
+}

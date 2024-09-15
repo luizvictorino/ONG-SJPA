@@ -1,0 +1,118 @@
+@import url('./home.css');
+@import url('./pageDoacao.css');
+@import url('./pageSobre.css');
+@import url('./modal.css');
+@import url('./responsive.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: Kumbh Sans;
+}
+
+:root {
+    /* cores */
+    --primary-color: #2C513C;
+    --green-less: #62BE8D;
+    --white-color: #fff;
+    --black-color: #000;
+    /* textos */
+    --weight-title: 800;
+    --weight-paragraph: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    max-width: 2440px;
+    min-width: 320px;
+    display: block;
+    width: 100%;
+    font-family: 'Kumbh Sans';
+    margin: 0 auto;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: var(--weight-paragraph);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+/* menu */
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 115px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo #titulo-logo, .mobile-menu #mobile-titulo-logo {
+    font-size: 1.7rem;
+    font-family: 'Kumbh Sans';
+    color: var(--green-less);
+    margin-left: 15px;
+    font-weight: var(--weight-title);
+}
+
+.img-logo {
+    width: 90px;
+}
+
+.menu-top ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.menu-item {
+    width: fit-content;
+    height: fit-content;
+}
+
+.menu-item_link {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: transform 0.4s ease;
+}
+
+.menu-item_link:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.redes {
+    display: flex;
+    gap: 40px;
+}
+
+.redes a {
+    color: var(--white-color);
+}
+
+/*Footer*/
+
+footer .logo{
+    width: 80px;
+}
