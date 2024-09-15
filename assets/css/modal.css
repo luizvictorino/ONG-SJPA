@@ -15,7 +15,9 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px;
+    max-width: 690px;
+    box-shadow: 0px 0px 10px rgb(182, 182, 182);
+    margin-bottom: 25px;
 }
 .modal-body h1 {
     font-size: 2rem;
