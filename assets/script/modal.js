@@ -55,4 +55,15 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 })
 
+document.getElementById('doarQualquerValor').addEventListener('click', function () {
+    const valor = document.getElementById('valorDoacao').value;
+    
+    if (valor && valor > 0) {  
+        $('#modalDoacao').modal('show');  
+    } else {
+        alert('Por favor, insira um valor válido.');
+    }
+});
+
+
 export { modalMan }
