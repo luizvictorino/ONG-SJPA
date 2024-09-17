@@ -29,7 +29,9 @@ h1 {
 strong {
   margin-left: 10px;
   font-weight: var(--weight-title);
+  color: #7fffd4a6;
 }
+
 .container_logo{
   width: fit-content;
   display: flex;
@@ -96,7 +98,7 @@ strong {
 
 .img-sobre {
   grid-area: img;
-  width: 35rem;
+  width: 30rem;
   height: 30rem;
   border-radius: 2%;
 }
