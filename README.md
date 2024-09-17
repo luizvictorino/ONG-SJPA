@@ -138,7 +138,7 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/107269203?v=4" alt="img-Luiz">
+        src="https://avatars.githubusercontent.com/u/107269203?v=4" alt="img-Kelvin">
     <p>&nbsp&nbsp&nbsp <b>Kelvin Henrique</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/KelBaker" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
@@ -162,7 +162,7 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/123955719?v=4" alt="img-Luiz">
+        src="https://avatars.githubusercontent.com/u/123955719?v=4" alt="img-Maria">
     <p>&nbsp&nbsp&nbsp <b>Maria Fernanda</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/NandaMelooo" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
@@ -174,7 +174,7 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://media.licdn.com/dms/image/v2/D4E03AQGZi-VweXFRDw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716152040021?e=1732147200&v=beta&t=Dxf3tZUMGiJ2jzP2lfnCWDYadFsb3-FukZ1Hgz3n29Q" alt="img-Luiz">
+        src="https://media.licdn.com/dms/image/v2/D4E03AQGZi-VweXFRDw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716152040021?e=1732147200&v=beta&t=Dxf3tZUMGiJ2jzP2lfnCWDYadFsb3-FukZ1Hgz3n29Q" alt="img-Natanael">
     <p>&nbsp&nbsp&nbsp <b>Natanael Panjota</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/NatanPantoja" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
@@ -198,7 +198,7 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/167567044?v=4" alt="img-Ronildo">
+        src="https://avatars.githubusercontent.com/u/167567044?v=4" alt="img-Thaylla">
     <p>&nbsp&nbsp&nbsp <b>Thaylla Faria</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/TataFaria" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
