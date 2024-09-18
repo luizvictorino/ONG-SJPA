@@ -144,7 +144,7 @@
     width: 100vw !important;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px !important;
+    /* padding: 10px 20px !important; */
   }
 
   .menu-top strong {
@@ -198,15 +198,15 @@
   .banner h1 {
     display: block;
     width: 90% !important;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   /* =========== sobre home =========== */
-  /* .sobre {
+  .sobre {
     display: flex;
     flex-direction: column;
     padding: 100px 10px 50px 10px;
-  } */
+  }
 
   .sobre h2 {
     font-size: 2rem;
@@ -216,12 +216,19 @@
     font-size: 18px;
   }
 
+  .sobre-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .img-sobre {
-    /* grid-area: img; */
+    display: none;
+    /* grid-area: img;
     width: 20rem;
     height: 20rem;
     border-radius: 2%;
-    padding-top: 2em;
+    padding-top: 2em; */
   }
 
   /* =========== doacao home =========== */
