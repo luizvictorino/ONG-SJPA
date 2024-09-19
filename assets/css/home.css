@@ -178,6 +178,7 @@ strong {
 /* caroucel animas description */
 .caroucelAnimal {
   width: 100%;
+  height: 90vh;
 }
 
 .dog-description {
@@ -191,7 +192,7 @@ strong {
 
 .dog-description .img-dogDescription {
   width: 150rem;
-  height: 600px;
+  height: 90vh;
   border-bottom-right-radius: 500px;
   border-top-right-radius: 500px;
 }
