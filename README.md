@@ -162,11 +162,11 @@ _____________________________
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/120067052?v=4" alt="img-Vinicius">
-    <p>&nbsp&nbsp&nbsp <b>Vinicius Cirilo</b><br>&nbsp&nbsp&nbsp
-    <a href="https://github.com/Vinicius46" target="_blank">GitHub</a>
+        src="https://avatars.githubusercontent.com/u/167567044?s=400&u=c4a737440e099ada64088c42661d037900cf19c9&v=4" alt="img-Thaylla">
+    <p>&nbsp&nbsp&nbsp <b>Thaylla Faria</b><br>&nbsp&nbsp&nbsp
+    <a href="https://github.com/TataFaria" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/vinicius-cirilo-1b12a5191/" target="_blank">Linkedin</a>
+    <a href="https://www.linkedin.com/in/thaylla-teixeira-4903a413b/" target="_blank">Linkedin</a>
 </p>
 
 _____________________________
@@ -179,6 +179,30 @@ _____________________________
     <a href="https://github.com/wagner1067" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/wagner-oliveira-14a8b4289/" target="_blank">Linkedin</a>
+</p>
+
+_____________________________
+
+<br><br>
+<p>
+    <img align=left margin=10 width=80
+        src="https://avatars.githubusercontent.com/u/123955719?v=4" alt="img-MariaFernanda">
+    <p>&nbsp&nbsp&nbsp <b>Maria Fernanda Melo</b><br>&nbsp&nbsp&nbsp
+    <a href="https://github.com/NandaMelooo" target="_blank">GitHub</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/maria-fernanda-costa-de-melo/" target="_blank">Linkedin</a>
+</p>
+
+_____________________________
+
+<br><br>
+<p>
+    <img align=left margin=10 width=80
+        src="https://avatars.githubusercontent.com/u/107269203?v=4" alt="img-Kelvin">
+    <p>&nbsp&nbsp&nbsp <b>Kelvin Henrique</b><br>&nbsp&nbsp&nbsp
+    <a href="https://github.com/KelBaker" target="_blank">GitHub</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/kelvin-henrique-507bb9228/" target="_blank">Linkedin</a>
 </p>
 <br><br>
 
