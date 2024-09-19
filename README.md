@@ -204,6 +204,18 @@ _____________________________
     &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/kelvin-henrique-507bb9228/" target="_blank">Linkedin</a>
 </p>
+
+_____________________________
+
+<br><br>
+<p>
+    <img align=left margin=10 width=80
+        src="https://avatars.githubusercontent.com/u/161660708?v=4" alt="img-Natanael">
+    <p>&nbsp&nbsp&nbsp <b>Natanael Pantoja</b><br>&nbsp&nbsp&nbsp
+    <a href="https://github.com/NatanPantoja" target="_blank">GitHub</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/natanael-galv%C3%A3o-pantoja-cruz-a998862b2/" target="_blank">Linkedin</a>
+</p>
 <br><br>
 
 ## 🙌 Agradecimentos
