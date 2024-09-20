@@ -1,7 +1,26 @@
+/* ============   Section Header  ============ */
+/* ============   Section Sobre   ============ */
+/* ============   Section Adoção  ============ */
+
 @media only screen and (max-width:1220px) {
 
+  /* ============   Section Header  ============ */
   .container_logo {
     width: 70%;
+  }
+
+  .menu-top .redes {
+    position: absolute;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    margin: 370px 0 0;
+    height: fit-content;
+  }
+
+  .container_menu-mobile,
+  .logo-text {
+    display: block;
   }
 
   .nav-menu {
@@ -11,11 +30,6 @@
 
   .menu-top-mobile_none {
     display: none;
-  }
-
-  .container_menu-mobile,
-  .logo-text {
-    display: block;
   }
 
   .menu-top-mobile_aparence {
@@ -47,15 +61,7 @@
     text-align: center;
   }
 
-  .menu-top .redes {
-    position: absolute;
-    flex-direction: row;
-    width: 90%;
-    justify-content: center;
-    margin: 370px 0 0;
-    height: fit-content;
-  }
-
+  /* ============   Section Sobre   ============ */
   .title-sessao {
     font-size: 40px;
   }
@@ -76,12 +82,14 @@
     padding-top: 2em;
   }
 
+  /* ============   Section Adoção  ============ */
   .adocao {
     background-repeat: repeat;
     background-size: auto;
     height: fit-content;
     gap: 25px;
 
+    padding-top: 30px;
   }
 
   .card {
@@ -90,30 +98,32 @@
     height: 300px;
   }
 
-  .card-title {
-    font-size: 48px;
+  .card-title{
+    font-size: 30px;
+  }
+
+  .adocao h2 {
+    font-size: 50px;
   }
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
+  /* ============   Section Header  ============ */
   .banner h1 {
     width: 90% !important;
     font-size: 4rem;
   }
 
+  /* ============   Section Sobre   ============ */
   .sobre {
     display: flex;
     flex-direction: column;
     padding: 100px 10px 50px 10px;
   }
 
-  .sobre h2 {
-    font-size: 2.2rem;
-  }
-
-  .sessao-parag {
-    font-size: 18px;
+  h2.title-sessao {
+    font-size: 30px;
   }
 
   .sobre-body {
@@ -132,17 +142,23 @@
     display: none;
   }
 
+  /* ============   Section Adoção  ============ */
   .card {
     width: 250px;
     height: 200px;
   }
 
-  .card-title {
+  .adocao h2 {
     font-size: 32px;
   }
 
+  /* ============   Section caroucel  ============ */
   .caroucelAnimal {
     height: 70vh;
+  }
+
+  .dog-descri_body {
+    padding: 0 100px 0 50px;
   }
 
   .dog-description .img-dogDescription {
@@ -150,14 +166,7 @@
     height: 70vh;
   }
 
-  .title-sessao {
-    font-size: 2rem;
-  }
-
-  .dog-descri_body {
-    padding: 0 100px 0 50px;
-  }
-
+  /* ============   Section Voluntários  ============ */
   .voluntarios {
     height: fit-content;
     background-size: 300%;
@@ -168,16 +177,17 @@
     padding: 0 80px;
     background-color: #ffffffb2;
   }
+
+  .title-sessao {
+    font-size: 2rem;
+  }
 }
 
 @media(max-width:767px) {
 
-  .container_logo .img-logo{
+  /* ============   Section Header  ============ */
+  .img-logo {
     width: 70px;
-  }
-
-  .banner {
-    width: 100vw;
   }
 
   .banner h1 {
@@ -185,89 +195,89 @@
     font-size: 2.5rem;
   }
 
-  .menu-top-mobile_none {
-    display: none;
-  }
-
-  .container_menu-mobile,
-  .logo-text {
-    display: block;
-  }
-
-  .menu-top-mobile_aparence {
-    position: absolute;
-    margin: 100px 0 0 -40px;
-    background-color: var(--primary-color);
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    z-index: 100;
-  }
-
-  .menu-top-mobile_aparence ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .menu-top-mobile_aparence ul a:hover {
-    display: block;
-    background-color: var(--white-color);
-    color: var(--primary-color);
-    border-radius: 16px;
-    width: 220px;
-    text-align: center;
-  }
-
-  .menu-top .redes {
-    position: absolute;
-    flex-direction: row;
-    width: 90%;
-    justify-content: center;
-    margin: 370px 0 0;
-    height: fit-content;
-  }
-
-  .title-sessao {
-    font-size: 40px;
+  /* ============   Section Sobre   ============ */
+  h2.title-sessao {
+    font-size: 30px;
   }
 
   .sessao-parag {
-    color: var(--black-color);
-    grid-area: paragh;
-    font-size: 20px;
-    font-weight: 500;
-    width: 98%;
+    font-size: 18px;
   }
 
   .img-sobre {
     display: none;
   }
 
-  .adocao {
-    background-repeat: repeat;
-    background-size: auto;
-    height: fit-content;
-    gap: 25px;
-
-    padding-top: 30px;
+  .btn-sobre {
+    width: 180px;
+    height: 35px;
+    font-size: 0.7rem;
   }
 
+  /* ============   Section Adoção  ============ */
   .card {
-    width: 80vw;
-    height: 35vh;
+    width: 250px;
+    height: 200px;
   }
 
-  .card-title {
-    font-size: 28px;
+  .adocao h2 {
+    font-size: 24px;
+  }
+
+  /* ============   Section Voluntários  ============ */
+  .voluntarios {
+    height: fit-content;
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+
+  .voluntarios figure {
+    padding: 0 80px;
+    background-color: #ffffffb2;
+  }
+
+    /* ============   Section carousel  ============ */
+    .caroucelAnimal {
+      height: auto;
+  }
+
+  .dog-description {
+      position: relative;
+  }
+
+  .dog-description .img-dogDescription {
+      padding: 20px auto;
+      width: 100vw;
+      height: 70vh;
+      border-radius: 0;
+      object-fit: cover;
+  }
+
+  .dog-descri_body {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); 
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .dog-descri_body h3 {
+      font-size: 30px;
+      margin: 0;
+      color: var(--green-less);
+  }
+
+  .dog-descri_body p {
+    color: #fff;
+      padding: 0;
+      margin: 5px 0 0 0;
+      font-size: 18px;
   }
 
 
-    /* =========== footer =========== */
+  /* ============   Section Footer  ============ */
   /* footer {
     height: fit-content;
     padding: 0;
@@ -282,4 +292,29 @@
   footer .autorais {
     font-size: 1rem;
   } */
+}
+
+@media (max-width: 425px) {
+
+    /* ============   Section Adoção  ============ */
+    .card {
+      width: 250px;
+      height: 200px;
+    }
+  
+    .card-title h2{
+      font-size: 18px;
+    }
+  /* ============   Section carousel  ============ */
+  .dog-description .img-dogDescription {
+      height: 50vh;
+  }
+
+  .dog-descri_body h3 {
+      font-size: 24px;
+  }
+
+  .dog-descri_body p {
+      font-size: 16px;
+  }
 }
