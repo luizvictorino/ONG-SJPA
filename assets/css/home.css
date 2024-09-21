@@ -181,8 +181,12 @@ strong {
   height: 90vh;
 }
 
-.dog-description {
-  background-image: url("../images/banners/background-dogDescription.png");
+.caroucelAnimal .sessao-parag{
+  font-weight: 600;
+}
+
+.caroucelAnimal .dog-description {
+  background-image: url("../images/banners/backgroundSobre.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
