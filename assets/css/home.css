@@ -1,6 +1,6 @@
 .banner {
   display: flex;
-  background-image: url("../images/banners/7c741c494705_sjpa03.jpg");
+  /* background-image: url("../images/banners/7c741c494705_sjpa03.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -8,6 +8,20 @@
   height: 90vh;
   align-items: center;
   filter: brightness(90%);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 70%;
 }
 
 h1 {
@@ -16,11 +30,45 @@ h1 {
   text-shadow: 10px 5px 5px #2c513c;
   margin-left: 10vw;
   width: 60rem;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.link_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #1b934f;
+}
+
+.link_logo:hover {
+  color: #78ca9b;
 }
 
 strong {
   margin-left: 10px;
   font-weight: var(--weight-title);
+  color: #7fffd4a6;
+}
+
+.container_logo {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redes {
+  width: fit-content;
 }
 
 /* section sobre */
@@ -34,21 +82,6 @@ strong {
   background-size: cover;
   background-attachment: fixed;
 }
-
-/* .sobre-body {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 20% 20% 20%;
-    gap: 10px;
-    grid-template-areas:
-        "titulo img"
-        "paragh img"
-        "... img";
-    width: 98%;
-    padding: 40px 32px;
-    margin-top: 50px;
-
-} */
 
 .btn-sobre {
   display: flex;
@@ -88,7 +121,7 @@ strong {
 
 .img-sobre {
   grid-area: img;
-  width: 35rem;
+  width: 30rem;
   height: 30rem;
   border-radius: 2%;
 }
@@ -168,14 +201,15 @@ strong {
 /* caroucel animas description */
 .caroucelAnimal {
   width: 100%;
-  /* height: 900px; */
-  /* height: 80vh; */
-  /* z-index: 1;
-    height: 700px; */
+  height: 90vh;
 }
 
-.dog-description {
-  background-image: url("../images/banners/background-dogDescription.png");
+.caroucelAnimal .sessao-parag {
+  font-weight: 600;
+}
+
+.caroucelAnimal .dog-description {
+  background-image: url("../images/banners/backgroundSobre.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -185,7 +219,7 @@ strong {
 
 .dog-description .img-dogDescription {
   width: 150rem;
-  height: 600px;
+  height: 90vh;
   border-bottom-right-radius: 500px;
   border-top-right-radius: 500px;
 }
@@ -348,11 +382,6 @@ footer .redes {
   text-transform: uppercase;
 }
 
-.fundo button:hover {
-  background-color: #1b934f;
-  color: #fff;
-}
-
-.fundo .fa-brandsfa-whatsappfa-2xm {
-  color: white;
+.container_menu-mobile {
+  display: none;
 }
