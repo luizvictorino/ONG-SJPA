@@ -249,6 +249,7 @@ footer .logo {
         width: 200px;
         height: 45px;
         font-size: 1rem;
+        margin: 40px auto;
     }
 
     .img-sobre {
@@ -308,12 +309,20 @@ footer .logo {
     }
 
     /* ============   Section Sobre   ============ */
-    h2.title-sessao {
-        font-size: 30px;
+    .sobre {
+        padding: 30px 10px 0 10px;
     }
 
-    .sessao-parag {
-        font-size: 18px;
+    h2.title-sessao {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .sobre .sessao-parag {
+        font-size: 20px;
+        font-weight: 500;
+        /* line-height: 22px; */
+        padding-bottom: 0;
     }
 
     .img-sobre {
@@ -323,7 +332,8 @@ footer .logo {
     .btn-sobre {
         width: 180px;
         height: 35px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        margin: 40px auto;
     }
 
     /* ============   Section Adoção  ============ */
