@@ -93,3 +93,9 @@
     width: 10rem;
     height: 10rem;
 }
+
+@media (max-width:1024px) {
+    .colaboradores .pessoa figure img {
+        height: 200px;
+    }
+}
