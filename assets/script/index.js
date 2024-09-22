@@ -17,4 +17,4 @@ function getDOM(varTag, nameTag){
    return varTag
 }
 menuMobile()
-modalMan()
+modalMan
