@@ -1,14 +1,15 @@
-*{
+* {
     font-style: Kumbh Sans;
 }
 
 .colaboradores {
+    background-color: rgb(233, 247, 242);
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem;
-    color: #000;
+    color: var(--primary-color);
     gap: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 80px;
     justify-content: space-evenly;
 }
 
@@ -16,14 +17,52 @@
 .nossosParceiros h2 {
     width: 100%;
     text-align: center;
-    color: #000;
+    color: var(--primary-color);
+    font-size: 2.5rem;
 }
 
-.pessoa {
+.colaboradores .pessoa {
+    position: relative;
     display: flex;
-    border: 1px solid #000;
+    justify-content: space-around;
+    text-align: center;
     height: 50vh;
     transition: transform 0.4s ease;
+}
+
+.colaboradores .pessoa figure {
+    position: relative;
+    width: 100%;
+}
+
+.colaboradores .pessoa figure img {
+    width: 100%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.colaboradores .pessoa figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    color:  rgb(233, 247, 242);
+    font-size: 1.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colaboradores .pessoa figure figcaption span {
+    font-weight: bold;
+}
+
+
+.pessoa,
+.parceiro {
+    transition: transform 0.3s ease;
 }
 
 .pessoa:hover,
@@ -32,26 +71,25 @@
     animation: none !important;
 }
 
+
 .nossosParceiros {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 50px;
-    padding: 16px;
+    padding: 40px 0;
 }
 
 .nossosParceiros .parceiro {
     display: flex;
     width: fit-content;
     height: fit-content;
-    border-radius: 16px;
     transition: transform 0.4s ease;
 }
 
 .parceiro img {
     box-sizing: border-box;
     display: inline-block;
-    border-radius: 16px;
-    width: 350px;
-    height: 200px;
+    width: 10rem;
+    height: 10rem;
 }
