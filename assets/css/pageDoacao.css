@@ -40,32 +40,8 @@
     text-align: justify;
 }
 
-
-.doacao_valores h1 {
-    font-size: 1.4rem;
-    font-weight: var(--weight-title);
-    color: white;
-    margin-right: 45%;
-    margin-top: 5vh;
-}
-
- /*.
-
-
-.doacao-descricao h2.title-sessao {
-    color: var(--white-color);
-}
-
-
-
-.doacao-descricao .sessao-parag {
-    color: var(--white-color);
-    text-align: justify;
-    margin-top: 1em;
-} */
-
 /* Doação Valores */
-/* .doacao_valores {
+ .doacao_valores {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,10 +65,10 @@
     font-size: 20px;
     margin-bottom: 15px;
     width: 100%; 
-} */
+} 
 
 /* Valor Personalizado */
-/* .valor-personalizado {
+ .valor-personalizado {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,10 +133,10 @@
     bottom: 3px;
     font-weight: 500;
     font-size: 15px;
-} */
+} 
 
 /* Cards */
-/* .cards {
+.cards {
     display: flex;
     flex-direction: row;
     gap: 6.6em;
@@ -245,17 +221,17 @@
 }
 
 /* Container de Botões */
-/* .container-btn {
+ .container-btn {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin-top: 3em;
     margin-bottom: 4em;
     padding: 0;
-}  */
+}  
 
 /* Botões de Doação */
-/* .btnDoacao_outrosValores {
+ .btnDoacao_outrosValores {
     display: flex;
     margin: 0 auto;
     width: 20%;
@@ -276,10 +252,10 @@
 .btnDoacao_outrosValores:hover {
     color: var(--white-color);
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
-} */
+}
 
 /* Animações */
-/* @keyframes fadeIn {
+@keyframes fadeIn {
     0% {
         opacity: 0;
         transform: translateY(20px);
@@ -300,7 +276,7 @@
     100% {
         background-position: 0% 50%; 
     }
-} */
+}
 
 @media (max-width:1270px) {
 
