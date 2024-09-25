@@ -110,7 +110,9 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalDoacaoLabel">Doaçoes por menores que sejam. Salvam vidas!</h5>
+                    <h5 class="modal-title" id="modalDoacaoLabel">
+                        Doaçoes por menores que sejam. Salvam vidas!
+                    </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -118,9 +120,15 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="toggle-buttons">
-                            <button type="button" onclick="toggleSection('pix')">Pix</button>
-                            <button type="button" class="cartao" onclick="toggleSection('cartao')">Cartão</button>
-                            <button type="button" onclick="toggleSection('boleto')">Boleto</button>
+                            <button type="button" onclick="toggleSection('pix')">
+                                Pix
+                            </button>
+                            <button type="button" onclick="toggleSection('cartao')" class="cartao">
+                                Cartão
+                            </button>
+                            <button type="button" onclick="toggleSection('boleto')">
+                                Boleto
+                            </button>
                         </div>
                         <form action="/processar_pagamento" method="post">
                             <!-- Seção Pix -->
@@ -174,15 +182,18 @@
     </div>
 
     <footer>
-        <a href="#logo"><img src="../../assets/images/icons/logo2.svg" class="logo" alt="logo"></a>
-        <p class="autorais">Todos os direitos reservados a - <br> <small>Copyright © 2024</small></p>
+        <a href="#logo">
+            <img src="../../assets/images/icons/logo2.svg" class="logo" alt="logo">
+        </a>
+        <p class="autorais"><span>© </span>2024 Copyright - Todos os direitos reservados</p>
         <div class="redes">
             <h6 class="title-redes">Contato</h6>
             <a href="https://www.instagram.com/ong_sjpa/?igsh=MTR0cWNmM2hxbmpnbA%3D%3D" target="_blank">
-                <i class="fa-brands fa-instagram fa-2"></i></a>
+                <i class="fa-brands fa-instagram fa-2"></i>
+            </a>
             <a href="https://api.whatsapp.com/send?phone=553299655493" target="_blank">
-                <i class="fa-brands fa-whatsapp fa-2xm"></i></a>
-        </div>
+                <i class="fa-brands fa-whatsapp fa-2xm"></i>
+            </a>
         </div>
     </footer>
 
