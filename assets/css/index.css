@@ -15,6 +15,7 @@
   /* cores */
   --primary-color: #2c513c;
   --green-less: #62be8d;
+  --green-footer: #1b934f;
   --white-color: #fff;
   --black-color: #000;
   /* textos */
@@ -113,7 +114,7 @@ header {
 }
 /*=====SECTION SEÇÃO PERGUNTAS FREQUENTES====*/
 #faq {
-  background-color: var(--primary-color);
+  background-color: var(--green-footer);
 }
 #faq > h2 {
   text-align: center;
@@ -124,7 +125,7 @@ header {
 }
 .faq-question {
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: var(--green-footer);
   border: none;
   padding: 10px;
   width: 100%;
