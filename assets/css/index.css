@@ -112,12 +112,21 @@ header {
 .redes a {
   color: var(--white-color);
 }
-/*=====SECTION SEÇÃO PERGUNTAS FREQUENTES====*/
+
+/*=========SECTION SEÇÃO PERGUNTAS FREQUENTES==========*/
 #faq {
   background-color: var(--green-footer);
 }
 #faq > h2 {
   text-align: center;
+  padding-bottom: 1rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Duas colunas */
+  gap: 20px;
+  padding: 1rem 1.25rem;
 }
 .faq-answer {
   display: none;
@@ -424,6 +433,10 @@ footer .logo {
     padding: 0;
     margin: 5px 0 0 0;
     font-size: 18px;
+  }
+  /* ============   Section FAQ ============ */
+  .faq-grid {
+    grid-template-columns: 1fr; /* Ajusta para uma coluna em telas menores */
   }
 }
 
