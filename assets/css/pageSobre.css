@@ -46,8 +46,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-    color:  rgb(233, 247, 242);
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente */
+    color: rgb(233, 247, 242);
     font-size: 1.5rem;
     padding: 20px;
     display: flex;
@@ -95,7 +96,23 @@
 }
 
 @media (max-width:1024px) {
+    .colaboradores .pessoa {
+        height: 100%;
+    }
+
     .colaboradores .pessoa figure img {
         height: 200px;
     }
+}
+
+@media (max-width: 587px) {
+    .nossosParceiros {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+/* 
+    .nossosParceiros a {
+        height: 100%;
+    } */
 }
