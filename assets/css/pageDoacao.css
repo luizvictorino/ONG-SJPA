@@ -461,6 +461,29 @@
         padding: 0 45px;
     }
 
+    .card_doacao-valor {
+        margin-top: 50px;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+        margin-top: -18px;
+    }
+
+    .card_valor {
+        font-size: 1.8rem;
+        font-weight: var(--weight-title);
+        margin-bottom: 0.2em;
+    }
+
+    .card_valor>span {
+        font-size: 1.1rem;
+    }
+
+    .card_descricao {
+        font-size: 14px;
+    }
+
     .btnDoacao_outrosValores {
         font-size: 0.8rem;
         width: 15rem;
