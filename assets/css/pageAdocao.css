@@ -3,7 +3,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* Doação Descrição */
+/* Adoção Descrição */
 .adocao-descricao {
     width: 100%;
     height: 80vh;
@@ -39,15 +39,112 @@
     text-align: justify;
 }
 
+/* Adoção Cards */
 
-.adocao_cards {
-    width: 100%;
-    height: 80vh;
-    background-color:rgb(94, 184, 103);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-    
+.adoption-section {
+    padding: 40px;
+    background-color: #4CAF50;
+    color: black;
 }
 
+.adoption-section>h2{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.layout-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-left: 80px;
+    gap: 20px;
+}
+  
+.filters {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+} 
+
+.filters label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+.filters select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+  
+.card-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    gap: 20px;
+    margin-right: 200px;
+}
+  
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card img {
+    width: 100%;
+    height: auto;  
+}
+  
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+  
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+  
+.card-content p {
+    margin: 5px 0;
+}
+  
+.card-content button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+.card-content button:hover {
+    background-color: #45a049;
+}
+  
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+.layout-container {
+        grid-template-columns: 1fr;
+    }
+  
+.card-container {
+      justify-content: center;
+    }
+}

@@ -18,3 +18,4 @@ function getDOM(varTag, nameTag){
 }
 menuMobile()
 modalMan()
+
