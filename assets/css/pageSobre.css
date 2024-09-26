@@ -1,0 +1,115 @@
+* {
+    font-style: Kumbh Sans;
+}
+
+.colaboradores {
+    background-color: rgb(233, 247, 242);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    color: var(--primary-color);
+    gap: 20px;
+    padding-bottom: 80px;
+    justify-content: space-evenly;
+}
+
+.colaboradores h2,
+.nossosParceiros h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.colaboradores .pessoa {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 50vh;
+    transition: transform 0.4s ease;
+}
+
+.colaboradores .pessoa figure {
+    position: relative;
+    width: 100%;
+}
+
+.colaboradores .pessoa figure img {
+    width: 100%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.colaboradores .pessoa figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente */
+    color: rgb(233, 247, 242);
+    font-size: 1.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colaboradores .pessoa figure figcaption span {
+    font-weight: bold;
+}
+
+
+.pessoa,
+.parceiro {
+    transition: transform 0.3s ease;
+    display: flex;
+}
+
+.pessoa:hover,
+.parceiro:hover {
+    transform: scale(1.1);
+    animation: none !important;
+}
+
+
+.nossosParceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0;
+}
+
+.nossosParceiros .parceiro {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    transition: transform 0.4s ease;
+}
+
+.parceiro img {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+}
+
+@media (max-width:1024px) {
+    .colaboradores .pessoa {
+        height: 100%;
+    }
+
+    .colaboradores .pessoa figure img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 587px) {
+    .nossosParceiros {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}

@@ -1,0 +1,491 @@
+/* Global Styles */
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Doação Descrição */
+.doacao-descricao {
+    width: 100%;
+    height: 80vh;
+    background-color: #5eb867;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.doacao-descricao > .descricao {
+    width: 50%;
+    height: fit-content;
+}
+
+.doacao-descricao>figure>img {
+    width: 500px;
+}
+
+.doacao-descricao>.descricao>h2>span {
+    display: block;
+    font-size: 2rem;
+    line-height: 5px;
+}
+
+.doacao-descricao>.descricao>h2 {
+    color: var(--white-color);
+}
+
+.doacao-descricao>.descricao>p {
+    color: var(--white-color);
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+/* Doação Valores */
+.doacao_valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/banners/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+    position: relative;
+}
+
+.doacao_valores>h1 {
+    font-size: 4.4rem;
+    font-weight: var(--weight-title);
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    width: auto;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 2rem;
+    padding: 0 20px;
+
+}
+
+.card_doacao-valor {
+    margin-top: 15rem;
+    position: relative;
+    background-image: radial-gradient(circle at 53.76% 46.24%, #6c9157 0, #5f8a57 12.5%, #528256 25%, #467954 37.5%, #3b6e51 50%, #31634d 62.5%, #295a49 75%, #235145 87.5%, #1e4a42 100%);
+    border: 0.1px solid rgb(22, 22, 22);
+    border-radius: 40px;
+    box-shadow: 0px 5px 8px rgba(44, 44, 44, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-size: 23px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1s ease forwards;
+}
+
+.card_doacao-valor:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.493);
+    cursor: pointer;
+    background-color: #3d634d;
+}
+
+
+.card_doacao-valor:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.card_doacao-valor:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.card_doacao-valor:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+.card-text {
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: -25px;
+    background-color: #65558F;
+    box-shadow: 0px 0px 8px rgb(44, 44, 44);
+    border-radius: 1rem;
+    padding: 5px 10px;
+    color: white !important;
+    font-size: 1.4rem;
+}
+
+.card_valor {
+    font-size: 3.2rem;
+    font-weight: var(--weight-title);
+    margin-bottom: 0.7em;
+}
+
+.card_valor>span {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.card_descricao {
+    text-align: center;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Valor Personalizado */
+.valor-personalizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 47%;
+    margin-bottom: 3vh;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+#valorDoacao {
+    flex: 1;
+    padding: 8px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+    border: 2px solid #ddd;
+    background: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#valorDoacao:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(0, 150, 0, 0.3);
+    outline: none;
+}
+
+#doarQualquerValor {
+    width: 35rem;
+    padding: 8px;
+    border-radius: 0 0 15px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    background: linear-gradient(45deg, #4CAF50, #2E8B57);
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#doarQualquerValor:hover {
+    background: linear-gradient(45deg, #2E8B57, #4CAF50);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+#doarQualquerValor:active {
+    background: linear-gradient(45deg, #2E8B57, #4CAF50);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+}
+
+#doarQualquerValor>span {
+    position: relative;
+    bottom: 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Container de Botões */
+.container-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    padding: 0;
+}
+
+/* Botões de Doação */
+.btnDoacao_outrosValores {
+    display: flex;
+    margin: 50px auto;
+    width: 20rem;
+    height: 8vh;
+    background: linear-gradient(90deg,
+            #4B0082, #8A2BE2, #9400D3, #7520a0, #582866);
+    background-size: 400%;
+    box-shadow: 0px 5px 8px rgba(44, 44, 44, 0.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    transition: background-position 0.4s ease, box-shadow 0.3s ease;
+    animation: rainbowPurpleAnimation 3s ease infinite;
+}
+
+.btnDoacao_outrosValores:hover {
+    color: var(--white-color);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Animações */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rainbowPurpleAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width:1270px) {
+
+    .doacao-descricao>.descricao>h2 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .doacao-descricao>.descricao>h2>span {
+        line-height: 30px;
+    }
+
+    .doacao-descricao>.descricao>p {
+        font-size: 20px;
+    }
+
+    .doacao-descricao>figure>img {
+        width: 30rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .doacao-descricao>.descricao>p {
+        margin-top: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-top: -18px;
+    }
+
+    .card_valor {
+        font-size: 2.5rem;
+        margin-bottom: 0.4em;
+    }
+
+    .card_valor>span {
+        font-size: 1.5rem;
+    }
+
+    .card_descricao {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    .doacao-descricao {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .doacao-descricao > .descricao {
+        width: 80%;
+        height: fit-content;
+    }
+}
+
+@media (min-width:768px) and ((max-width:1023px)) {
+    .doacao-descricao>.descricao>h2 {
+        font-size: 48px;
+    }
+
+    .doacao-descricao>.descricao>h2>span {
+        font-size: 24px;
+    }
+
+    .doacao-descricao>.descricao>p {
+        margin-top: 0;
+    }
+
+    .card_doacao-valor {
+        height: 50%;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .card_valor {
+        font-size: 2rem;
+        margin-bottom: 0.3em;
+    }
+
+    .card_valor>span {
+        font-size: 1.3rem;
+    }
+
+    .card_descricao {
+        font-size: 13px;
+    }
+
+    .btnDoacao_outrosValores {
+        font-size: 1rem;
+        width: 17rem;
+    }
+}
+
+@media (max-width:767px) {
+    .doacao-descricao>.descricao>h2>span {
+        font-size: 20px;
+    }
+    
+    .doacao-descricao>.descricao>h2 {
+        font-size: 40px;
+    }
+    
+    .doacao-descricao>.descricao>p {
+        margin-top: 1rem;
+    }
+
+    .doacao-descricao >figure> img {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .doacao_valores > h1 {
+        font-size: 40px;
+        top: 17vh;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-top: 0;
+        height: auto;
+    }
+
+    #doacao25 {
+        margin-top: 15rem;
+    }
+
+    .card_doacao-valor {
+        margin-top: 50px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-top: -23px;
+    }
+
+    .card_valor {
+        font-size: 2.5rem;
+        font-weight: var(--weight-title);
+        margin-bottom: 0.2em;
+    }
+
+    .card_valor>span {
+        font-size: 1.5rem;
+    }
+
+    .card_descricao {
+        font-size: 16px;
+    }
+
+    .container-btn {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btnDoacao_outrosValores {
+        font-size: 20px;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .doacao-descricao>.descricao>h2>span {
+        font-size: 18px;
+    }
+    
+    .doacao-descricao>.descricao>h2 {
+        font-size: 36px;
+    }
+
+    .doacao-descricao>.descricao>p {
+        font-size: 16px;
+    }
+
+    .doacao-descricao >figure> img {
+        padding: 0 45px;
+    }
+
+    .card_doacao-valor {
+        margin-top: 50px;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+        margin-top: -18px;
+    }
+
+    .card_valor {
+        font-size: 1.8rem;
+        font-weight: var(--weight-title);
+        margin-bottom: 0.2em;
+    }
+
+    .card_valor>span {
+        font-size: 1.1rem;
+    }
+
+    .card_descricao {
+        font-size: 14px;
+    }
+
+    .btnDoacao_outrosValores {
+        font-size: 0.8rem;
+        width: 15rem;
+    }
+}
