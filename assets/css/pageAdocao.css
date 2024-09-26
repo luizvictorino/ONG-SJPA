@@ -1,53 +1,67 @@
 /* Global Styles */
 * {
-    font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 /* Doação Descrição */
 .adocao-descricao {
-    width: 100%;
-    height: 80vh;
-    background-color:#FDF8E6;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
+  width: 100%;
+  height: 80vh;
+  background-color: #fdf8e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
 }
 
 .adocao-descricao > .descricao {
-    width: 50%;
-    height: fit-content;
+  width: 50%;
+  height: fit-content;
 }
 
-.adocao-descricao>figure>img {
-    width: 500px;
+.adocao-descricao > figure > img {
+  width: 30rem; /*500px*/
 }
 
-.adocao-descricao>.descricao>h2>span {
-    display: block;
-    font-size: 2rem;
-    line-height: 5px;
+.adocao-descricao > .descricao > h2 > span {
+  display: block;
+  font-size: 2rem;
+  line-height: 5px;
 }
 
-.adocao-descricao>.descricao>h2 {
-    color: black;
+.adocao-descricao > .descricao > h2 {
+  color: black;
 }
 
-.doacao-adocao>.descricao>p {
-    color: black;
-    margin-top: 1rem;
-    text-align: justify;
+.doacao-adocao > .descricao > p {
+  color: black;
+  margin-top: 1rem;
+  text-align: justify;
 }
-
 
 .adocao_cards {
-    width: 100%;
-    height: 80vh;
-    background-color:rgb(94, 184, 103);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-    
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(94, 184, 103);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
 }
 
+/*=========AJUSTE MEDIA QUERIES================*/
+@media only screen and (max-width: 767px) {
+  .adocao-descricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .adocao-descricao > img {
+    width: 50%;
+    padding: 0 50px;
+  }
+}
