@@ -114,6 +114,7 @@ strong {
 .sessao-parag {
   color: var(--black-color);
   grid-area: paragh;
+  text-align: justify;
   font-size: 25px;
   font-weight: 500;
   width: 98%;
@@ -206,6 +207,7 @@ strong {
 
 .caroucelAnimal .sessao-parag {
   font-weight: 600;
+  font-size: 28px;
 }
 
 .caroucelAnimal .dog-description {

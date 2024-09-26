@@ -314,8 +314,11 @@ footer .logo {
   }
 
   .dog-description .img-dogDescription {
-    width: 100rem;
     height: 70vh;
+  }
+
+  .caroucelAnimal .sessao-parag {
+    font-size: 20px;
   }
 
   /* ============   Section Voluntários  ============ */
@@ -352,14 +355,13 @@ footer .logo {
   }
 
   h2.title-sessao {
-    font-size: 30px;
+    font-size: 32px;
     padding-bottom: 20px;
   }
 
   .sobre .sessao-parag {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    /* line-height: 22px; */
     padding-bottom: 0;
   }
 
@@ -381,7 +383,7 @@ footer .logo {
   }
 
   .adocao h2 {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   /* ============   Section Voluntários  ============ */
@@ -424,7 +426,7 @@ footer .logo {
   }
 
   .dog-descri_body h3 {
-    font-size: 30px;
+    font-size: 32px;
     margin: 0;
     color: var(--green-less);
   }
@@ -433,7 +435,7 @@ footer .logo {
     color: #fff;
     padding: 0;
     margin: 5px 0 0 0;
-    font-size: 18px;
+    font-size: 24px;
   }
   /* ============   Section FAQ ============ */
   .faq-grid {
@@ -455,14 +457,6 @@ footer .logo {
   /* ============   Section carousel  ============ */
   .dog-description .img-dogDescription {
     height: 50vh;
-  }
-
-  .dog-descri_body h3 {
-    font-size: 24px;
-  }
-
-  .dog-descri_body p {
-    font-size: 16px;
   }
 
   /* ============   Section Footer  ============ */
