@@ -407,6 +407,11 @@ footer .logo {
     position: relative;
   }
 
+  .caroucelAnimal .sessao-parag {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
   .dog-description .img-dogDescription {
     padding: 20px auto;
     width: 100vw;
@@ -457,6 +462,13 @@ footer .logo {
   /* ============   Section carousel  ============ */
   .dog-description .img-dogDescription {
     height: 50vh;
+  }
+
+  .dog-descri_body h3 {
+    font-size: 24px;}
+
+  .caroucelAnimal .sessao-parag {
+    font-size: 15px;
   }
 
   /* ============   Section Footer  ============ */
