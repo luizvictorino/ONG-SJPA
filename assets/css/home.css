@@ -248,7 +248,7 @@ strong {
   background-image: url("../images/banners/backgound-voluntario.svg");
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   z-index: 1;
@@ -264,6 +264,12 @@ strong {
   color: var(--primary-color);
   text-align: center;
   margin-top: 40px;
+}
+
+.voluntarios > figure > .voluntario {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5px;
 }
 
 figcaption {
