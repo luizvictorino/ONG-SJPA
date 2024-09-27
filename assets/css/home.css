@@ -247,6 +247,7 @@ strong {
 .voluntarios {
   background-image: url("../images/banners/backgound-voluntario.svg");
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   display: flex;
@@ -341,11 +342,12 @@ footer .redes {
   align-items: center;
 }
 
-#cor img {
-  max-width: 100%;
-  object-fit: cover;
+#cor {
   height: auto;
-  margin-left: 10rem;
+  /* max-width: 100%; */
+  /* object-fit: cover; */
+  /* height: auto; */
+  /* margin-left: 10rem; */
 }
 
 .fundo {
@@ -355,7 +357,7 @@ footer .redes {
   background-image: url("/assets/images/banners/backgound-voluntario.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   width: 100%;
   height: 90vh;
   align-items: center;
