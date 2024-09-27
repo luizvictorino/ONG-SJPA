@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">  
     <title>A sua doação trasnforma vidas</title>
   </head>
   <body>
@@ -93,40 +93,78 @@
         <!-- Container dos Cards -->
           <div class="card-container">
             <div class="card" data-sex="female" data-age="adult">
-              <img src="url-da-imagem" alt="Cachorro Carmila">
+              <img src="../images/pets/bebezao.jpeg" alt="Cachorro bebezao">
               <div class="card-content">
-                <h3>Adote a Carmila</h3>
-                <p>Fêmea</p>
+                <h3>Adote a Bebezão</h3>
+                <p>Macho</p>
                 <p>Sem raça definida</p>
-                <p>3 anos de idade</p>
+                <p>idade</p>
                 <button>Mais Informações</button>
               </div>
             </div>
       
             <div class="card" data-sex="female" data-age="young">
-              <img src="url-da-imagem" alt="Cachorro Bella">
+              <img src="../images/pets/delicia.jpeg" alt="Cachorro delicia">
               <div class="card-content">
-                <h3>Adote a Bella</h3>
+                <h3>Adote a Delicia</h3>
                 <p>Fêmea</p>
                 <p>Sem raça definida</p>
-                <p>1 ano de idade</p>
+                <p>idade</p>
                 <button>Mais Informações</button>
               </div>
             </div>
       
             <div class="card" data-sex="male" data-age="adult">
-              <img src="url-da-imagem" alt="Cachorro Max">
+              <img src="../images/pets/digo.jpeg" alt="Cachorro Digo">
               <div class="card-content">
-                <h3>Adote o Max</h3>
+                <h3>Adote o Digo</h3>
                 <p>Macho</p>
                 <p>Sem raça definida</p>
                 <p>4 anos de idade</p>
                 <button>Mais Informações</button>
               </div>
             </div>
+
+            <div class="card" data-sex="female" data-age="young">
+              <img src="../images/pets/duque.jpeg" alt="Cachorro duque">
+              <div class="card-content">
+                <h3>Adote a Duque</h3>
+                <p>Macho</p>
+                <p>Sem raça definida</p>
+                <p>idade</p>
+                <button>Mais Informações</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-    
+
+      <script>
+        function filterCards() {
+          // Pegar os valores dos filtros
+          const sexFilter = document.getElementById("sex-filter").value;
+          const ageFilter = document.getElementById("age-filter").value;
+      
+          // Selecionar todos os cards
+          const cards = document.querySelectorAll(".card");
+      
+          // Loop através de cada card e verificar as condições do filtro
+          cards.forEach(card => {
+            const cardSex = card.getAttribute("data-sex");
+            const cardAge = card.getAttribute("data-age");
+      
+            // Condições para mostrar o card
+            const showCardBySex = sexFilter === "all" || cardSex === sexFilter;
+            const showCardByAge = ageFilter === "all" || cardAge === ageFilter;
+      
+            // Verificar se o card deve ser exibido
+            if (showCardBySex && showCardByAge) {
+              card.style.display = "block";  // Exibe o card
+            } else {
+              card.style.display = "none";  // Oculta o card
+            }
+          });
+        }
+      </script>
   </body>
 </html>

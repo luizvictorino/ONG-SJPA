@@ -47,31 +47,7 @@ function modalMan() {
     })
 }
 
-function filterCards(){
-    // Pegar os valores dos filtros
-    const sexFilter = document.getElementById("sex-filter").value;
-    const ageFilter = document.getElementById("age-filter").value;
-  
-    // Selecionar todos os cards
-    const cards = document.querySelectorAll(".card");
-  
-    // Loop através de cada card e verificar as condições do filtro
-    cards.forEach(card => {
-    const cardSex = card.getAttribute("data-sex");
-    const cardAge = card.getAttribute("data-age");
-  
-    // Condições para mostrar o card
-    const showCardBySex = sexFilter === "all" || cardSex === sexFilter;
-    const showCardByAge = ageFilter === "all" || cardAge === ageFilter;
-  
-    // Verificar se o card deve ser exibido
-      if (showCardBySex && showCardByAge) {
-        card.style.display = "block";  // Exibe o card
-        } else {
-        card.style.display = "none";  // Oculta o card
-      }
-    });
-}
+
 
   
 
