@@ -45,6 +45,20 @@ function modalMan() {
             getDOM('dropdown', '.dropdown').innerHTML = `<p>Desculpe! aconteceu um erro! Nos comunique para que podemos concertar.</p>`
         });
     })
+/* copia os links da sessao conta */
+    document.querySelectorAll(".b-card_link").forEach(function(anchor) {
+        anchor.addEventListener("click", function(event) {
+            event.preventDefault();
+            var texto = this.textContent;
+            var textarea = document.createElement("textarea");
+            textarea.value = texto;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.body.removeChild(textarea);
+            alert("Copiado com sucesso: " + texto);
+            navigator.clipboard.writeText(texto)
+        });
+    });
 }
 
 function filterCards(){

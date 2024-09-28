@@ -136,6 +136,9 @@ header {
   color: #000;
   padding: 1rem 1.5rem;
   font-weight: 700;
+  position: absolute ;
+  z-index: 100; 
+  width: 31vw;
 }
 .faq-question {
   cursor: pointer;
@@ -440,6 +443,9 @@ footer .logo {
   /* ============   Section FAQ ============ */
   .faq-grid {
     grid-template-columns: 1fr; /* Ajusta para uma coluna em telas menores */
+  }
+  .faq-answer{
+    width: 88%;
   }
 }
 
