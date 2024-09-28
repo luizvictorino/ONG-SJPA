@@ -83,13 +83,16 @@
     border-radius: 5px;
     border: 1px solid black;
 }
-  
+
+
 .card-container {
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     margin-right: 200px;
+    margin-left: 50px;
+    height: 1000px;
+    width: 1500px;
 }
   
 .card {
@@ -98,15 +101,20 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.2s;
+    height: 500px;
 }
-  
+
 .card:hover {
     transform: scale(1.05);
 }
   
 .card img {
-    width: 100%;
-    height: auto;  
+  width: 200px; 
+  height: 200px;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
 }
   
 .card-content {

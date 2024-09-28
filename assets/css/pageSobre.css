@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     padding: 1.5rem;
     color: var(--primary-color);
-    gap: 20px;
+    gap: 90px;
     padding-bottom: 80px;
     justify-content: space-evenly;
 }
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 50vh;
+    /* height: 50vh; */
     transition: transform 0.4s ease;
 }
 
@@ -107,6 +107,10 @@
 }
 
 @media (max-width: 587px) {
+    .colaboradores {
+        gap: 50px;
+    }
+
     .nossosParceiros {
         flex-direction: column;
         align-items: center;

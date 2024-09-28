@@ -4,6 +4,8 @@
 @import url("./pageAdocao.css");
 @import url("./modal.css");
 @import url("./responsive.css");
+@import url("./voluntariado.css");
+
 
 * {
   box-sizing: border-box;
@@ -156,6 +158,23 @@ header {
 /*Footer*/
 footer .logo {
   width: 80px;
+}
+
+ /* ============   foto voluntários  ============ */
+@media (min-width:1440px) {
+  .voluntarios > figure > .voluntario {
+    width: 19em;
+    height: 14em;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width:1440px) {
+  .voluntarios > figure > .voluntario {
+    width: 14em;
+    height: 8em;
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (max-width: 1220px) {
@@ -330,15 +349,6 @@ footer .logo {
     background-size: 300%;
     background-repeat: repeat;
   }
-
-  .voluntarios figure {
-    padding: 0 80px;
-    background-color: #ffffffb2;
-  }
-
-  .title-sessao {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 767px) {
@@ -396,11 +406,6 @@ footer .logo {
     background-repeat: repeat;
   }
 
-  .voluntarios figure {
-    padding: 0 80px;
-    background-color: #ffffffb2;
-  }
-
   /* ============   Section carousel  ============ */
   .caroucelAnimal {
     height: auto;
@@ -408,6 +413,11 @@ footer .logo {
 
   .dog-description {
     position: relative;
+  }
+
+  .caroucelAnimal .sessao-parag {
+    font-weight: 400;
+    font-size: 18px;
   }
 
   .dog-description .img-dogDescription {
@@ -463,6 +473,13 @@ footer .logo {
   /* ============   Section carousel  ============ */
   .dog-description .img-dogDescription {
     height: 50vh;
+  }
+
+  .dog-descri_body h3 {
+    font-size: 24px;}
+
+  .caroucelAnimal .sessao-parag {
+    font-size: 15px;
   }
 
   /* ============   Section Footer  ============ */
