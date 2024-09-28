@@ -1,110 +1,113 @@
 <p align="center">
     <img src="./assets/images/icons/logo-ong.webp" width="700">
 </p>
-<p align="center">Preview <b>[ONG SJPA]</b></p>
+<p align="center"><strong>ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente</strong></p>
+<p align="center"><strong>(ONG SJPA)</strong></p>
 
 ![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen)
 
-
-# 🐾 ONG Sociedade Juizforense de Protecao Aos Animais e Ao Meio Ambiente (ONG-SJPA) 🐾
-
-Seja bem-vindo(a) ao repositório oficial da **`ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA)`** Este projeto foi criado com muito carinho para ajudar os peludinhos que estão em busca de um lar cheio de amor e carinho. 🏠💛
-
-## 📝 Descrição
-Este site foi desenvolvido para a **`ONG-SJPA`** com o objetivo de conectar pets abandonados a pessoas dispostas a adotá-los. Aqui, você encontrará uma interface amigável para visualizar os animais disponíveis para adoção, conhecer mais sobre a história da ONG, e explorar formas de contribuir para essa causa. Seja adotando, apadrinhando um pet ou fazendo uma doação, você pode fazer a diferença na vida desses animais! 🐾
-
-## 🎯 Para que serve?
-A plataforma serve como um elo entre os pets abandonados e os futuros tutores, padrinhos e doadores. Além de visualizar os pets disponíveis para adoção, os usuários podem escolher apadrinhar um pet, contribuindo financeiramente para o seu cuidado, ou fazer uma doação para ajudar a ONG a continuar seu trabalho incrível.
-
-## 👀 Demonstração
-Quer dar uma espiadinha no que está por vir? Confira a versão ao vivo clicando [aqui](https://luizvictorino.github.io/ONG-SJPA/)! 🌐
+# 🐾 ONG - SJPA
+Bem-vindo(a) ao repositório da **ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA)**. Este projeto foi desenvolvido para apoiar pets abandonados e mautratados por seus antigos tutores, ajudando-os a encontrar lares amorosos e proporcionando opções de apadrinhamento e doações. 🏡💛
 
 
-## 💡 Funcionalidades
+## Sumário
 
- **Visualização de Pets** 🐶: Navegue pela nossa página de adoção e conheça todos os pets adoráveis disponíveis para encontrar um novo lar. Se um desses peludinhos conquistar seu coração, basta preencher o formulário de adoção para iniciar o processo.
+1. [📄 Descrição](#descrição)
+2. [🎯 Objetivo do Projeto](#objetivo-do-projeto)
+3. [🌐 Demostração](#demonstração)
+4. [🛠️ Fucionalidades](#funcionalidades)
+5. [🚀 Tecnologias Utilizadas](#tecnologias-utilizadas)
+6. [🗂️ Estrutura de Pastas](#estrutura-de-pastas)
+7. [📸 Fotos do Projeto](#fotos-do-projeto)
+8. [🛠️ Melhorias Futuras](#melhorias-futuras)
+9. [👥 Desenvolvedores](#desenvolvedores)
+10. [👏 Agradecimentos](#agradecimentos)
 
-* **Cadastro para Adoção** 📝: Quer adotar um pet? A página de adoção oferece um formulário simples e direto para você começar a jornada de dar um novo lar a um amigo fiel.
 
-* **Apadrinhamento e Voluntariado** 🤝: Na página de apadrinhamento e voluntariado, você pode fazer mais do que apenas adotar. Acesse o link do nosso grupo de WhatsApp para se tornar um apadrinhador, contribuindo financeiramente para o cuidado de um pet específico, ou se inscreva como voluntário para ajudar a ONG de diversas formas.
+## Descrição 
+A **ONG-SJPA**, com mais de 36 anos de história, foi criada por voluntários dedicados a proporcionar um lar seguro e acolhedor para animais abandonados. Atualmente, a organização abriga cerca de 450 cães e gatos, contando com o apoio da comunidade para continuar suas atividades. O site da ONG facilita a adoção dos pets, oferece a possibilidade de apadrinhar um animal e aceita doações para garantir o bem-estar dos bichinhos.
 
-* **Doações** 💸: Sua contribuição pode fazer toda a diferença! Na página de doações, você pode optar por um valor fixo ou um valor personalizado de sua escolha, facilitando o pagamento através de Pix. Ajude-nos a continuar nossa missão com a sua generosidade!
+## Objetivo do Projeto
+O projeto tem como objetivo conectar pets abandonados a futuros tutores, padrinhos e doadores, garantindo que cada animal receba cuidados e afeto. A plataforma visa promover a adoção responsável, incentivar o apadrinhamento e facilitar doações para manter o abrigo em funcionamento, garantindo dignidade e amor para todos os animais.
 
-* **Histórias Felizes** 🌟: Descubra e se inspire com as histórias de adoções bem-sucedidas. Veja como nossos pets têm encontrado novos lares e como sua ajuda pode criar finais felizes.
+## Demonstração
+Acesse a demonstração do projeto [Clicando aqui](https://luizvictorino.github.io/ONG-SJPA/)
 
-Essas funcionalidades foram pensadas para tornar sua experiência mais rica e permitir que você faça a diferença de várias maneiras. Junte-se a nós e ajude a transformar vidas!
+## Funcionalidades
+O site da **ONG SJPA** apresenta as seguintes funcionalidades principais:
 
-## 🛠️ Tecnologias Utilizadas
-Este projeto foi desenvolvido com as seguintes tecnologias:
+- **`Página inicial`** com uma breve história da ONG e sua missão.
 
-* 🌐 **HTML5**
-* 🎨 **CSS3**
-* ⚙️ **JavaScript**
+- **`Carrossel de adoção`**, Quer adotar um pet? A página de adoção oferece um formulário simples e direto para você começar a jornada de dar um novo lar a um amigo fiel.
+
+- **`Opção de doação`**, Sua contribuição pode fazer toda a diferença! Na página de doações, você pode optar por um valor fixo ou um valor personalizado de sua escolha, facilitando o pagamento através de Pix ou transferência bancária. Ajude-nos a continuar nossa missão com a sua generosidade!
+
+- **`Seção de voluntariado e apadrinhamento`**, Na página de apadrinhamento e voluntariado, você pode fazer mais do que apenas adotar. Acesse o link do nosso grupo de WhatsApp para se tornar um apadrinhador, contribuindo financeiramente para o cuidado de um pet específico, ou se inscreva como voluntário para ajudar a ONG de diversas formas.
+
+- **`Seção de perguntas frequentes`**, listagem de perguntas comuns e suas respostas.
+
+## Tecnologias Utilizadas
+
+### Front-End
+* **`HTML:`** Estruturação do conteúdo.
+* **`CSS:`** Estilização e layout responsivo.
+* **`JavaScript:`** Funcionalidades interativas e dinâmicas no site.
+
+### Ferramentas
+* **`Figma`:** Protótipo e design da interface.
+* **`Git`:** Controle de versão.
+* **`GitHub`:** Hospedagem da página.
 
 ## Estrutura de Pastas
-Aqui está um resumo da estrutura de pastas do projeto:
-
-```
+```bash
 ONG-SJPA/
-|
 ├── assets/
-    ├── css/
-        ├── home.css            # Estilização page home
-        ├── index.css           # Estilização menu navegação e mobile
-        ├── modal.css           # Estilização dos componentes
-        ├── pageDoacao.css      # Estilização page doação
-        ├── pageSobre.css       # Estilização page sobre
-        ├── responsive.css      # Estilização de responsividade
-    ├── images/
-        ├── banners/            # Banners de fundo
-        ├── icons/              # Imagens de icones e logos
-        ├── img /               # Imagens diversas
-        ├── pets/               # Imagens dos pets
-    ├── Pages/
-        ├── doacao.html         # Page de doação 
-        ├── sobre.html          # page sobre
-        ├── voluntario.html     # Page voluntários
-    ├── scripts/
-        ├──index.js             # Movimento interação com os bottões
-        ├── modal.js            # Interação forma de doação
-        ├── responsive.js       # Movimentação de responsividade
-    ├── videos/                 # Videos dos pets      
-    ├── .gitignore              # Arquivos ignorados 
-    ├── index.html              # Página principal do site
-    └── README.md               # Sobre o projeto
-
+│   ├── css/                 # Arquivos CSS para estilização
+│   │   ├── home.css
+│   │   ├── index.css
+│   │   ├── modal.css
+│   │   ├── pageAdocao.css
+│   │   ├── pageDoacao.css
+│   │   ├── pageSobre.css
+│   │   ├── voluntariado.css
+│   ├── images/              # Imagens do projeto
+│   │   ├── banners/
+│   │   ├── icons/
+│   │   ├── img/
+│   │   ├── parceiros/
+│   │   ├── pets/
+│   │   ├── project/
+│   │   ├── voluntarios/
+│   ├── Pages/               # Páginas do site
+│   │   ├── adocao.html
+│   │   ├── doacao.html
+│   │   ├── sobre.html
+│   │   ├── voluntario.html
+│   ├── scripts/             # Scripts JavaScript
+│   │   ├── index.js
+│   │   ├── modal.js
+│   │   ├── responsive.js
+│   └── videos/              # Vídeos dos pets
+├── index.html               # Página inicial
+└── README.md                # Informações sobre o projeto
 ```
-<br><br><br>
 
-# 📸 Algumas Fotos do Projeto
+## Fotos do Projeto
+Aqui estão algumas capturas de tela do projeto:
 
+- `Adicionar algumas fotos do projeto`
 
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>Navbar menu banner</h4>
-    <img src="./assets/images/Project/homePage-inicio.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>History Ong</h4>
-    <img src="./assets/images/Project/homePage-histotia.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-     <h4>Help Pets</h4>
-    <img src="./assets/images/Project/homePage-ajuda.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>Responsive menu</h4>
-    <img src="./assets/images/Project/menu-responsive.png" style="width: 500px; height: 500px; object-fit: cover;">
-</div>
-<br><br>
+## Melhorias Futuras
+* 🎲 **`Criação de banco de dados`**: Implementação de um banco de dados robusto para armazenar informações dos pets, adotantes, padrinhos e doadores.
+* 🔐 **`Criação da página de Admin`**: Desenvolvimento de uma área administrativa exclusiva para a ONG gerenciar os pets cadastrados.
+* 📟 **`Cadastro e gerenciamento de pets pela administração`**: Possibilidade de cadastrar novos animais e atualizar suas informações diretamente pela interface de administração.
+* 📩 **`Rotinas automatizadas de lembretes`**: Sistema de envio de lembretes automáticos por e-mail, avisando sobre próximas vacinas e consultas veterinárias dos pets.
+* 💰 **`Controle financeiro`**: Implementação de um sistema de gestão financeira para acompanhar as entradas e saídas de recursos, como doações e despesas com alimentos, medicamentos e tratamentos veterinários.
 
 
-## 👥 Desenvolvedores
-Este projeto foi desenvolvido pelos seguintes colaboradores:
-<br><br>
-
+## Desenvolvedores
+Este projeto foi desenvolvido pelos seguintes colaboradores: 
+<br>
 <p>
     <img align=left margin=10 width=80 
         src="https://avatars.githubusercontent.com/u/174968110?v=4" alt="img-Douglas">
@@ -225,143 +228,7 @@ ___
 </p>
 
 ___
-<br><br>
+<br>
 
-## 🙌 Agradecimentos
-Aqui está a versão atualizada com as informações solicitadas, incluindo o sumário, melhorias futuras e agradecimentos:
-
----
-
-<p align="center">
-    <img src="./assets/images/icons/logo-ong.webp" width="700">
-</p>
-<p align="center">Preview <b>ONG SJPA</b></p>
-
-# 🐾 ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA) 🐾
-Seja bem-vindo(a) ao repositório oficial da **`ONG Sociedade Juizforense de Proteção Aos Animais e Ao Meio Ambiente (ONG-SJPA)`**! Este projeto foi criado com muito carinho para ajudar os peludinhos que estão em busca de um lar cheio de amor e carinho. 🏠💛
-
-## 📝 Descrição
-Este site foi desenvolvido para a **`ONG-SJPA`** com o objetivo de conectar pets abandonados a pessoas dispostas a adotá-los. Aqui, você encontrará uma interface amigável para visualizar os animais disponíveis para adoção, conhecer mais sobre a história da ONG e explorar formas de contribuir para essa causa. Seja adotando, apadrinhando um pet ou fazendo uma doação, você pode fazer a diferença na vida desses animais! 🐾
-
----
-
-## 📑 Sumário
-1. [Descrição](#-descrição)
-2. [Para que serve?](#-para-que-serve)
-3. [Demonstração](#-demonstração)
-4. [Funcionalidades](#-funcionalidades)
-5. [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-6. [Estrutura de Pastas](#-estrutura-de-pastas)
-7. [Fotos do Projeto](#-algumas-fotos-do-projeto)
-8. [Desenvolvedores](#-desenvolvedores)
-9. [Melhorias Futuras](#-melhorias-futuras)
-10. [Agradecimentos](#-agradecimentos)
-
----
-
-## 🎯 Para que serve?
-A plataforma serve como um elo entre os pets abandonados e os futuros tutores, padrinhos e doadores. Além de visualizar os pets disponíveis para adoção, os usuários podem escolher apadrinhar um pet, contribuindo financeiramente para o seu cuidado, ou fazer uma doação para ajudar a ONG a continuar seu trabalho incrível.
-
-## 👀 Demonstração
-Quer dar uma espiadinha no que está por vir? Confira a versão ao vivo clicando [aqui](https://luizvictorino.github.io/ONG-SJPA/)! 🌐
-
-## 💡 Funcionalidades
-
-* **Visualização de Pets** 🐶: Navegue pela nossa página de adoção e conheça todos os pets adoráveis disponíveis para encontrar um novo lar. Se um desses peludinhos conquistar seu coração, basta preencher o formulário de adoção para iniciar o processo.
-
-* **Cadastro para Adoção** 📝: Quer adotar um pet? A página de adoção oferece um formulário simples e direto para você começar a jornada de dar um novo lar a um amigo fiel.
-
-* **Apadrinhamento e Voluntariado** 🤝: Na página de apadrinhamento e voluntariado, você pode fazer mais do que apenas adotar. Acesse o link do nosso grupo de WhatsApp para se tornar um apadrinhador, contribuindo financeiramente para o cuidado de um pet específico, ou se inscreva como voluntário para ajudar a ONG de diversas formas.
-
-* **Doações** 💸: Sua contribuição pode fazer toda a diferença! Na página de doações, você pode optar por um valor fixo ou um valor personalizado de sua escolha, facilitando o pagamento através de Pix. Ajude-nos a continuar nossa missão com a sua generosidade!
-
-* **Histórias Felizes** 🌟: Descubra e se inspire com as histórias de adoções bem-sucedidas. Veja como nossos pets têm encontrado novos lares e como sua ajuda pode criar finais felizes.
-
-## 🛠️ Tecnologias Utilizadas
-Este projeto foi desenvolvido com as seguintes tecnologias:
-
-* 🌐 **HTML5**
-* 🎨 **CSS3**
-* ⚙️ **JavaScript**
-
-## 📁 Estrutura de Pastas
-
-```
-ONG-SJPA/
-|
-├── assets/
-    ├── css/
-        ├── home.css            # Estilização page home
-        ├── index.css           # Estilização menu navegação e mobile
-        ├── modal.css           # Estilização dos componentes
-        ├── pageDoacao.css      # Estilização page doação
-        ├── pageSobre.css       # Estilização page sobre
-        ├── responsive.css      # Estilização de responsividade
-    ├── images/
-        ├── banners/            # Banners de fundo
-        ├── icons/              # Imagens de ícones e logos
-        ├── img/                # Imagens diversas
-        ├── pets/               # Imagens dos pets
-    ├── Pages/
-        ├── doacao.html         # Página de doação 
-        ├── sobre.html          # Página sobre
-        ├── voluntario.html     # Página de voluntários
-    ├── scripts/
-        ├── index.js            # Movimento de interação com os botões
-        ├── modal.js            # Interação para forma de doação
-        ├── responsive.js       # Movimentação de responsividade
-    ├── videos/                 # Vídeos dos pets      
-    ├── .gitignore              # Arquivos ignorados 
-    ├── index.html              # Página principal do site
-    └── README.md               # Sobre o projeto
-```
-
----
-
-# 📸 Algumas Fotos do Projeto
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>Navbar menu banner</h4>
-    <img src="./assets/images/Project/homePage-inicio.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>História da ONG</h4>
-    <img src="./assets/images/Project/homePage-histotia.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>Ajuda aos Pets</h4>
-    <img src="./assets/images/Project/homePage-ajuda.png" style="width: 1000px; height: 500px; object-fit: cover;">
-</div>
-
-<div style="display: flex; align-items: center; justify-content: space-around; margin-bottom: 20px;">
-    <h4>Menu Responsivo</h4>
-    <img src="./assets/images/Project/menu-responsive.png" style="width: 500px; height: 500px; object-fit: cover;">
-</div>
-
----
-
-## 👥 Desenvolvedores
-
-[... informações sobre os desenvolvedores ...]
-
----
-
-## 🔧 Melhorias Futuras
-
-1. **Integração com API**: Implementar uma integração com uma API para facilitar o cadastro de novos pets disponíveis para adoção e atualizações no site em tempo real.
-   
-2. **Melhoria no Responsivo**: Refinar a experiência de navegação mobile para garantir que todos os usuários tenham acesso otimizado, independentemente do dispositivo.
-
-3. **Sistema de Notificações**: Adicionar um sistema de notificações por e-mail ou SMS para alertar possíveis adotantes quando novos pets estiverem disponíveis.
-
-4. **Seção de Depoimentos**: Implementar uma seção onde adotantes possam compartilhar suas histórias e experiências com seus novos pets.
-
-
-
-## 💖 Agradecimentos
-
-Gostaríamos de agradecer à **Escola DNC** pela oportunidade de aprendizado e a todos os envolvidos neste projeto por sua colaboração, dedicação e esforço. Juntos, conseguimos desenvolver uma plataforma que impacta positivamente a vida dos animais e das pessoas que os adotam. A todos os que ajudaram a construir e refinar este projeto, o nosso mais sincero muito obrigado! 🙏
-_____________________________
-
+## Agradecimentos
+Gostaríamos de agradecer à Escola DNC pela oportunidade de aprendizado e a todos os envolvidos neste projeto por sua colaboração, dedicação e esforço. Juntos, conseguimos desenvolver uma plataforma que impacta positivamente a vida dos animais e das pessoas que os adotam. A todos os que ajudaram a construir e refinar este projeto, o nosso mais sincero muito obrigado! 🙏
