@@ -94,7 +94,7 @@
   margin-left: 50px;
 }
 
-.card {
+.card-adocao {
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -104,11 +104,11 @@
   width: 300px; 
 }
 
-.card:hover {
+.card-adocao:hover {
   transform: scale(1.05);
 }
 
-.card img {
+.card-adocao img {
   width: 90%; 
   height: 200px;
   display: block;
@@ -170,7 +170,7 @@
     width: 100%; /* Ajusta a largura para 100% */
   }
 
-  .card {
+  .card-adocao {
     width: 80%; /* Ajusta a largura dos cartões */
     margin-bottom: 20px; /* Adiciona espaçamento entre os cartões */
   }
@@ -187,7 +187,7 @@
     margin-bottom: 20px; /* Espaçamento entre filtros e cards */
   }
 
-  .card {
+  .card-adocao {
     width: 100%; /* Cartões ocupam a largura total */
     margin: 10px 0; /* Ajusta margens */
   }
@@ -198,7 +198,7 @@
     width: 100%; /* Alinha dropdowns para ocupar toda a largura */
   }
 
-  .card img {
+  .card-adocao img {
     height: 150px; /* Reduz a altura da imagem */
   }
 
