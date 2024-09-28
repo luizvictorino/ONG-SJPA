@@ -14,26 +14,27 @@
   gap: 10px;
 }
 
-.adocao-descricao > .descricao {
+.adocao-descricao .descricao {
   width: 50%;
   height: fit-content;
 }
 
-.adocao-descricao > figure > img {
+.adocao-descricao  figure  img {
   width: 30rem; /*500px*/
+  border-radius: 2%;
 }
 
-.adocao-descricao > .descricao > h2 > span {
+.adocao-descricao .descricao  h2  span {
   display: block;
   font-size: 2rem;
   line-height: 5px;
 }
 
-.adocao-descricao > .descricao > h2 {
+.adocao-descricao .descricao h2 {
   color: black;
 }
 
-.doacao-adocao > .descricao > p {
+.doacao-adocao  .descricao  p {
   color: black;
   margin-top: 1rem;
   text-align: justify;
@@ -42,117 +43,166 @@
 /* Adoção Cards */
 
 .adoption-section {
-    padding: 40px;
-    background-color: #4CAF50;
-    color: black;
+  padding: 40px;
+  background-color: #4CAF50;
+  color: black;
 }
 
-.adoption-section>h2{
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    font-size: 3rem;
-    font-weight: bold;
+.adoption-section h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .layout-container {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    margin-left: 80px;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-left: 80px;
+  gap: 20px;
 }
-  
+
 .filters {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: fit-content;
-} 
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
 
 .filters label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-  
-.filters select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid black;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
+.filters select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-right: 200px;
-    margin-left: 50px;
-    height: 1000px;
-    width: 1500px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  gap: 30px;
+  margin-right: 100px;
+  margin-left: 50px;
 }
-  
+
 .card {
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.2s;
-    height: 500px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  height: 500px;
+  width: 300px; 
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-  
+
 .card img {
-  width: 200px; 
+  width: 90%; 
   height: 200px;
-  align-items: center;
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
+  display: block;
+  margin: 20px auto; 
+  object-fit: cover; 
+  border-radius: 2%;
 }
-  
+
 .card-content {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
-  
+
 .card-content h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
-  
+
 .card-content p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
-  
+
 .card-content button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-.card-content button:hover {
-    background-color: #45a049;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
+
+.card-content button:hover {
+  background-color: #45a049;
+}
+
   
 /* Responsivo para telas menores */
+
+@media (max-width: 1024px) {
+  .layout-container {
+    grid-template-columns: 1fr; /* Empilha os filtros acima dos cards */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0; /* Remove padding extra */
+    justify-content: center; /* Centraliza os itens */
+  }
+
+  .filters {
+    margin: 0 auto; /* Centraliza os filtros */
+    width: 80%; /* Ajusta a largura */
+    margin-bottom: 20px; /* Espaçamento entre filtros e cards */
+  }
+
+  .card-container {
+    justify-content: center; /* Centraliza os cards */
+    margin: 0 auto; /* Remove margens laterais */
+    width: 100%; /* Ajusta a largura para 100% */
+  }
+
+  .card {
+    width: 80%; /* Ajusta a largura dos cartões */
+    margin-bottom: 20px; /* Adiciona espaçamento entre os cartões */
+  }
+}
+
 @media (max-width: 768px) {
-.layout-container {
-        grid-template-columns: 1fr;
-    }
-  
-.card-container {
-      justify-content: center;
-    }
+  .adoption-section h2 {
+    font-size: 2rem; /* Reduz o tamanho do título */
+    margin: 20px 0; /* Ajusta o espaçamento */
+  }
+
+  .filters {
+    width: 100%; /* Os filtros ocupam toda a largura */
+    margin-bottom: 20px; /* Espaçamento entre filtros e cards */
+  }
+
+  .card {
+    width: 100%; /* Cartões ocupam a largura total */
+    margin: 10px 0; /* Ajusta margens */
+  }
+}
+
+@media (max-width: 576px) {
+  .filters select {
+    width: 100%; /* Alinha dropdowns para ocupar toda a largura */
+  }
+
+  .card img {
+    height: 150px; /* Reduz a altura da imagem */
+  }
+
+  .card-container {
+    padding: 0 10px; /* Adiciona padding para evitar colar nas bordas */
+  }
 }
