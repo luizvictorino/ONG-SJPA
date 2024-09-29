@@ -135,7 +135,7 @@ strong {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 100%;
   padding-bottom: 50px;
 
   align-items: center;
@@ -147,6 +147,7 @@ strong {
   display: block;
   width: 100%;
   text-align: center;
+  padding: 30px 0;
 }
 
 .card {
@@ -205,6 +206,10 @@ strong {
   height: 90vh;
 }
 
+.caroucelAnimal .title-sessao {
+  font-size: 40px;
+}
+
 .caroucelAnimal .sessao-parag {
   font-weight: 600;
   font-size: 28px;
@@ -248,49 +253,56 @@ strong {
   background-image: url("../images/banners/backgound-voluntario.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  padding: 4rem 0 100px 0;
+  justify-content: space-evenly;
+  color: var(--primary-color);
+  row-gap: 80px;
   display: flex;
   flex-wrap: wrap;
-  z-index: 1;
-  position: relative;
-  justify-content: center;
-  gap: 70px;
-  padding-bottom: 70px !important;
-}
-
-.voluntarios .title-sessao {
-  display: block;
-  width: 100%;
-  color: var(--primary-color);
-  text-align: center;
-  margin-top: 40px;
-}
-
-.voluntarios > figure {
-  position: relative;
-  width: 30rem;
-  height: 20rem;
-}
-
-.voluntarios > figure > .voluntario {
-  width: 100%;
   height: 100%;
-  border-radius: 5px;
-  object-fit: cover;
+
+  h2 {
+    display: block;
+    width: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 72px;
+  }
 }
 
-figcaption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  color: white;
+.voluntario {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
-  font-size: 2rem;
-  padding: 10px 0;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  transition: transform 0.4s ease;
+
+  figure {
+    position: relative;
+    width: 650px;
+    height: 450px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 2px;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      /* Fundo semitransparente */
+      color: rgb(233, 247, 242);
+      font-size: 1.5rem;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
 
 /* Section Footer */

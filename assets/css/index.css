@@ -190,13 +190,7 @@ footer .logo {
   width: 80px;
 }
 
-
 @media (min-width:1440px) {
-  .voluntarios>figure>.voluntario {
-    width: 19em;
-    height: 14em;
-    border-radius: 5px;
-  }
 
   /* ============   Section FAQ  ============ */
   .faq-grid {
@@ -205,16 +199,25 @@ footer .logo {
   }
 }
 
+@media (max-width: 2220px) {
+
+  /* ============   Section Voluntário  ============ */
+  .voluntario figure {
+    width: 400px;
+    height: 300px;
+  }
+}
+
 @media (max-width:1440px) {
-  .voluntarios>figure>.voluntario {
-    width: 14em;
-    height: 10em;
-    border-radius: 5px;
+
+  /* ============   Section Voluntário  ============ */
+  .voluntarios h2 {
+    font-size: 50px;
   }
 
-  /* ============   Section FAQ  ============ */
-  .faq-grid {
-    padding: 1rem 6rem;
+  .voluntario figure {
+    width: 310px;
+    height: 210px;
   }
 }
 
@@ -388,9 +391,18 @@ footer .logo {
 
   /* ============   Section Voluntários  ============ */
   .voluntarios {
-    height: fit-content;
+    /* height: fit-content; */
     background-size: 300%;
     background-repeat: repeat;
+
+    h2 {
+      font-size: 36px;
+    }
+  }
+
+  .voluntario figure {
+    width: 200px;
+    height: 140px;
   }
 
   /* ============   Section FAQ  ============ */
@@ -466,9 +478,13 @@ footer .logo {
 
   /* ============   Section Voluntários  ============ */
   .voluntarios {
-    height: fit-content;
-    background-size: 100%;
-    background-repeat: repeat;
+    padding: 2rem 0 30px 0;
+    row-gap: 30px;
+  }
+
+  .voluntario figure {
+    width: 200px;
+    height: 140px;
   }
 
   /* ============   Section carousel  ============ */
@@ -480,9 +496,14 @@ footer .logo {
     position: relative;
   }
 
+  .caroucelAnimal .title-sessao {
+    font-size: 32px;
+  }
+
   .caroucelAnimal .sessao-parag {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 18px;
+    padding: 0 10px;
   }
 
   .dog-description .img-dogDescription {
@@ -516,6 +537,12 @@ footer .logo {
     font-size: 24px;
   }
 
+  /* ============   Section Voluntários  ============ */
+  .voluntario figure {
+    width: 200px;
+    height: 140px;
+  }
+
   /* ============   Section FAQ  ============ */
   #faq h2 {
     font-size: 32px;
@@ -523,7 +550,7 @@ footer .logo {
 
   .faq-grid {
     grid-template-columns: 1fr;
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .faq-item button {
@@ -552,8 +579,26 @@ footer .logo {
     font-size: 24px;
   }
 
+  .caroucelAnimal .title-sessao {
+    font-size: 28px;
+  }
+
   .caroucelAnimal .sessao-parag {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  /* ============   Section Voluntários  ============ */
+  .voluntarios {
+    flex-direction: column;
+    h2 {
+      font-size: 24px;
+    }
+  }
+
+
+  .voluntario figure {
+    width: 250px;
+    height: 160px;
   }
 
   /* ============   Section FAQ  ============ */
