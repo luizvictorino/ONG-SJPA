@@ -132,17 +132,6 @@ ___
 <br><br>
 <p>
     <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/135364540?v=4" alt="img-Harison">
-    <p>&nbsp&nbsp&nbsp <b>Harison Bastos</b><br>&nbsp&nbsp&nbsp
-    <a href="https://github.com/Bastos2894" target="_blank">GitHub</a>
-    &nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/harison-bastos-571203270/" target="_blank">Linkedin</a>
-</p>
-
-___
-<br><br>
-<p>
-    <img align=left margin=10 width=80
         src="https://avatars.githubusercontent.com/u/107269203?v=4" alt="img-Kelvin">
     <p>&nbsp&nbsp&nbsp <b>Kelvin Henrique</b><br>&nbsp&nbsp&nbsp
     <a href="https://github.com/KelBaker" target="_blank">GitHub</a>
@@ -181,17 +170,6 @@ ___
     <a href="https://github.com/NatanPantoja" target="_blank">GitHub</a>
     &nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/natanael-galv%C3%A3o-pantoja-cruz-a998862b2/" target="_blank">Linkedin</a>
-</p>
-
-___
-<br><br>
-<p>
-    <img align=left margin=10 width=80
-        src="https://avatars.githubusercontent.com/u/161389969?v=4" alt="img-Ronildo">
-    <p>&nbsp&nbsp&nbsp <b>Ronildo Maciel</b><br>&nbsp&nbsp&nbsp
-    <a href="https://github.com/RonildoMaciel456" target="_blank">GitHub</a>
-    &nbsp;|&nbsp;
-    <a href="https://www.linkedin.com/in/ronildo-maciel-2b8a941a9/" target="_blank">Linkedin</a>
 </p>
 
 ___
