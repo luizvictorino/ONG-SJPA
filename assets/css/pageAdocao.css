@@ -6,36 +6,46 @@
 /* Adoção Descrição */
 .adocao-descricao {
   width: 100%;
-  height: 80vh;
+  height: auto;
   background-color: #fdf8e6;
-  display: flex;
+  display: grid;
+  grid-template-columns: (2, 1fr);
   align-items: center;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  padding: 100px 0 50px 0;
+
+  .descricao {
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+
+    h2 {
+      color: #000;
+      font-size: 72px;
+
+      span {
+        display: block;
+        font-size: 32px;
+        line-height: 5px;
+      }
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+
+  figure img {
+    width: 40rem;
+    border-radius: 5%;
+  }
 }
 
-.adocao-descricao .descricao {
-  width: 50%;
-  height: fit-content;
-  border-radius: 2%;
-}
 
-.adocao-descricao  figure  img {
-  width: 30rem; 
-  border-radius: 2%;
-}
 
-.adocao-descricao .descricao  h2  span {
-  display: block;
-  font-size: 2rem;
-  line-height: 5px;
-}
-
-.adocao-descricao .descricao h2 {
-  color: black;
-}
-
-.doacao-adocao  .descricao  p {
+.doacao-adocao .descricao p {
   color: black;
   margin-top: 1rem;
   text-align: justify;
@@ -89,8 +99,8 @@
 
 .card-container {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 30px;
   margin-right: 100px;
   margin-left: 50px;
@@ -103,7 +113,7 @@
   overflow: hidden;
   transition: transform 0.2s;
   height: 500px;
-  width: 300px; 
+  width: 300px;
 }
 
 .card-adocao:hover {
@@ -111,11 +121,11 @@
 }
 
 .card-adocao img {
-  width: 90%; 
+  width: 90%;
   height: 200px;
   display: block;
-  margin: 20px auto; 
-  object-fit: cover; 
+  margin: 20px auto;
+  object-fit: cover;
   border-radius: 2%;
 }
 
@@ -148,69 +158,191 @@
   background-color: #45a049;
 }
 
-  
+
 /* Responsivo para telas menores */
 
-@media (max-width: 1024px) {
-  .layout-container {
-    grid-template-columns: 1fr; /* Empilha os filtros acima dos cards */
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0; /* Remove padding extra */
-    justify-content: center; /* Centraliza os itens */
-  }
+@media (max-width:1439px) {
 
-  .filters {
-    margin: 0 auto; /* Centraliza os filtros */
-    width: 80%; /* Ajusta a largura */
-    margin-bottom: 20px; /* Espaçamento entre filtros e cards */
-  }
+  /* Adoção Descrição */
+  .adocao-descricao {
+    padding: 80px 20px 50px 20px;
 
-  .card-container {
-    justify-content: center; /* Centraliza os cards */
-    margin: 0 auto; /* Remove margens laterais */
-    width: 100%; /* Ajusta a largura para 100% */
-  }
+    .descricao {
+      h2 {
+        font-size: 50px;
+      }
 
-  .card-adocao {
-    width: 80%; /* Ajusta a largura dos cartões */
-    margin-bottom: 20px; /* Adiciona espaçamento entre os cartões */
+      span {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    figure img {
+      width: 30rem;
+    }
   }
 }
 
-@media (max-width: 768px) {
-  .adoption-section h2 {
-    font-size: 2rem; /* Reduz o tamanho do título */
-    margin: 20px 0; /* Ajusta o espaçamento */
+@media (max-width: 1023px) {
+
+  /* Adoção Descrição */
+  .adocao-descricao {
+    padding: 50px 5px 10px 5px;
+
+    .descricao {
+      h2 {
+        font-size: 36px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    figure img {
+      width: 20rem;
+    }
+  }
+
+
+
+
+  .layout-container {
+    grid-template-columns: 1fr;
+    /* Empilha os filtros acima dos cards */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    /* Remove padding extra */
+    justify-content: center;
+    /* Centraliza os itens */
   }
 
   .filters {
-    width: 100%; /* Os filtros ocupam toda a largura */
-    margin-bottom: 20px; /* Espaçamento entre filtros e cards */
+    margin: 0 auto;
+    /* Centraliza os filtros */
+    width: 80%;
+    /* Ajusta a largura */
+    margin-bottom: 20px;
+    /* Espaçamento entre filtros e cards */
+  }
+
+  .card-container {
+    justify-content: center;
+    /* Centraliza os cards */
+    margin: 0 auto;
+    /* Remove margens laterais */
+    width: 100%;
+    /* Ajusta a largura para 100% */
   }
 
   .card-adocao {
-    width: 100%; /* Cartões ocupam a largura total */
-    margin: 10px 0; /* Ajusta margens */
+    width: 80%;
+    /* Ajusta a largura dos cartões */
+    margin-bottom: 20px;
+    /* Adiciona espaçamento entre os cartões */
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* Adoção Descrição */
+  .adocao-descricao {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 5px 30px 5px;
+
+    .descricao {
+      width: 100%;
+    }
+
+    figure img {
+      width: 30rem;
+    }
+  }
+
+
+
+
+
+
+
+  .adoption-section h2 {
+    font-size: 2rem;
+    /* Reduz o tamanho do título */
+    margin: 20px 0;
+    /* Ajusta o espaçamento */
+  }
+
+  .filters {
+    width: 100%;
+    /* Os filtros ocupam toda a largura */
+    margin-bottom: 20px;
+    /* Espaçamento entre filtros e cards */
+  }
+
+  .card-adocao {
+    width: 100%;
+    /* Cartões ocupam a largura total */
+    margin: 10px 0;
+    /* Ajusta margens */
   }
 }
 
 @media (max-width: 576px) {
-  .adocao-descricao figure img{
-    margin-top: 1rem;
 
+  /* Adoção Descrição */
+  .adocao-descricao figure img {
+    width: 20rem;
   }
 
-  
+
   .filters select {
-    width: 100%; /* Alinha dropdowns para ocupar toda a largura */
+    width: 100%;
+    /* Alinha dropdowns para ocupar toda a largura */
   }
 
   .card-adocao img {
-    height: 10rem; /* Reduz a altura da imagem */
+    height: 10rem;
+    /* Reduz a altura da imagem */
   }
 
   .card-container {
-    padding: 0 10px; /* Adiciona padding para evitar colar nas bordas */
+    padding: 0 10px;
+    /* Adiciona padding para evitar colar nas bordas */
+  }
+}
+
+@media (max-width: 424px) {
+
+  /* Adoção Descrição */
+  .adocao-descricao {
+    padding: 20px 5px 10px 5px;
+
+    .descricao {
+      h2 {
+        font-size: 28px;
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    figure img {
+      width: 15rem;
+    }
   }
 }
