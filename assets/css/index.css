@@ -6,6 +6,8 @@
 @import url("./responsive.css");
 @import url("./voluntariado.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -117,42 +119,70 @@ header {
 }
 
 /*=========SECTION SEÇÃO PERGUNTAS FREQUENTES==========*/
+
 #faq {
-  background-color: var(--green-footer);
-}
-#faq > h2 {
-  text-align: center;
-  padding-bottom: 1rem;
+  background: linear-gradient(to bottom, var(--green-less), var(--green-footer));
+  padding: 3rem 0 5.5rem 0;
+  border-bottom: 4px solid var(--green-less);
+
+  h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Arsenal SC", sans-serif;
+  }
 }
 
 .faq-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Duas colunas */
-  gap: 20px;
-  padding: 1rem 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+  padding: 1rem 10rem;
 }
+
+.faq-item {
+  margin-bottom: 5px;
+  position: relative;
+
+  button {
+    font-family: "Arsenal SC", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #13301e;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button.active {
+    background-color: #13301e;
+    color: #d0ecdb;
+  }
+}
+
 .faq-answer {
+  position: absolute;
+  z-index: 100;
   display: none;
-  font-size: 1rem;
-  background-color: var(--white-color);
+  padding: 8px 10px 0 10px;
+  background-color: #d0ecdb;
   color: #000;
-  padding: 1rem 1.5rem;
-  font-weight: 700;
-  position: absolute ;
-  z-index: 100; 
-  width: 31vw;
-}
-.faq-question {
-  cursor: pointer;
-  background-color: var(--green-footer);
-  border: none;
-  padding: 10px;
-  width: 100%;
-  text-align: left;
-  font-weight: 700;
-}
-.faq-question:focus + .faq-answer {
-  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  height: 100px;
 }
 
 /*Footer*/
@@ -160,24 +190,36 @@ footer .logo {
   width: 80px;
 }
 
- /* ============   foto voluntários  ============ */
+
 @media (min-width:1440px) {
-  .voluntarios > figure > .voluntario {
+  .voluntarios>figure>.voluntario {
     width: 19em;
     height: 14em;
     border-radius: 5px;
   }
+
+  /* ============   Section FAQ  ============ */
+  .faq-grid {
+    padding: 1rem 10rem;
+    column-gap: 3rem;
+  }
 }
 
 @media (max-width:1440px) {
-  .voluntarios > figure > .voluntario {
+  .voluntarios>figure>.voluntario {
     width: 14em;
-    height: 8em;
+    height: 10em;
     border-radius: 5px;
+  }
+
+  /* ============   Section FAQ  ============ */
+  .faq-grid {
+    padding: 1rem 6rem;
   }
 }
 
 @media only screen and (max-width: 1220px) {
+
   /* ============   Section Header  ============ */
   .container_logo {
     width: 70%;
@@ -282,6 +324,7 @@ footer .logo {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
   /* ============   Section Header  ============ */
   .banner h1 {
     width: 90% !important;
@@ -349,9 +392,29 @@ footer .logo {
     background-size: 300%;
     background-repeat: repeat;
   }
+
+  /* ============   Section FAQ  ============ */
+  .faq-grid {
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 860px) {
+
+  /* ============   Section FAQ ============ */
+  #faq {
+    align-items: center;
+  }
+
+  .faq-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem 10rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
+
   /* ============   Section Header  ============ */
   .img-logo {
     width: 70px;
@@ -450,16 +513,27 @@ footer .logo {
     margin: 5px 0 0 0;
     font-size: 24px;
   }
-  /* ============   Section FAQ ============ */
-  .faq-grid {
-    grid-template-columns: 1fr; /* Ajusta para uma coluna em telas menores */
+
+  /* ============   Section FAQ  ============ */
+  #faq h2 {
+    font-size: 32px;
   }
-  .faq-answer{
-    width: 88%;
+
+  .faq-grid {
+    padding: 1rem;
+  }
+
+  .faq-item button {
+    width: 100%;
+  }
+
+  .faq-answer {
+    height: auto;
   }
 }
 
 @media (max-width: 425px) {
+
   /* ============   Section Adoção  ============ */
   .card {
     width: 250px;
@@ -476,10 +550,25 @@ footer .logo {
   }
 
   .dog-descri_body h3 {
-    font-size: 24px;}
+    font-size: 24px;
+  }
 
   .caroucelAnimal .sessao-parag {
     font-size: 15px;
+  }
+
+  /* ============   Section FAQ  ============ */
+  #faq h2 {
+    font-size: 28px;
+  }
+
+  .faq-item button {
+    font-size: 13px;
+  }
+
+  .faq-answer {
+    font-size: 12px;
+    height: auto;
   }
 
   /* ============   Section Footer  ============ */

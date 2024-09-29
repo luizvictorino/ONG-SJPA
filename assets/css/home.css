@@ -24,7 +24,7 @@
   opacity: 70%;
 }
 
-h1 {
+.banner h1 {
   font-weight: 400;
   font-size: 6rem;
   text-shadow: 10px 5px 5px #2c513c;
@@ -199,7 +199,7 @@ strong {
   background-image: url("../images/img/card-doe.jpg");
 }
 
-/* caroucel animas description */
+/* caroucel animais description */
 .caroucelAnimal {
   width: 100%;
   height: 90vh;
@@ -267,17 +267,30 @@ strong {
   margin-top: 40px;
 }
 
-.voluntarios > figure > .voluntario {
+.voluntarios > figure {
+  position: relative;
   width: 30rem;
   height: 20rem;
+}
+
+.voluntarios > figure > .voluntario {
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 figcaption {
-  font-weight: var(--weight-title);
-  color: #1b934f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  color: white;
   text-align: center;
   font-size: 2rem;
+  padding: 10px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* Section Footer */
@@ -367,7 +380,6 @@ footer .redes {
 .fundo h2 {
   color: #000;
   font-size: 2rem;
-  padding-left: 3rem;
 }
 
 .fundo p {
