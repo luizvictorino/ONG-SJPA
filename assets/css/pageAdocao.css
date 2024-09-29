@@ -17,10 +17,11 @@
 .adocao-descricao .descricao {
   width: 50%;
   height: fit-content;
+  border-radius: 2%;
 }
 
 .adocao-descricao  figure  img {
-  width: 30rem; /*500px*/
+  width: 30rem; 
   border-radius: 2%;
 }
 
@@ -39,6 +40,7 @@
   margin-top: 1rem;
   text-align: justify;
 }
+
 
 /* Adoção Cards */
 
@@ -194,12 +196,18 @@
 }
 
 @media (max-width: 576px) {
+  .adocao-descricao figure img{
+    margin-top: 1rem;
+
+  }
+
+  
   .filters select {
     width: 100%; /* Alinha dropdowns para ocupar toda a largura */
   }
 
   .card-adocao img {
-    height: 150px; /* Reduz a altura da imagem */
+    height: 10rem; /* Reduz a altura da imagem */
   }
 
   .card-container {
