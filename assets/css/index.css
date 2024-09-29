@@ -182,7 +182,7 @@ header {
   color: #000;
   font-size: 14px;
   line-height: 16px;
-  height: 100px;
+  height: auto;
 }
 
 /*Footer*/
@@ -395,7 +395,7 @@ footer .logo {
 
   /* ============   Section FAQ  ============ */
   .faq-grid {
-    padding: 1rem 1rem;
+    padding: 1rem;
   }
 }
 
@@ -406,9 +406,11 @@ footer .logo {
     align-items: center;
   }
 
+  .faq-item button {
+    font-size: 13px;
+  }
+
   .faq-grid {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 1rem 10rem;
     width: 100%;
   }
 }
@@ -520,15 +522,12 @@ footer .logo {
   }
 
   .faq-grid {
-    padding: 1rem;
+    grid-template-columns: 1fr;
+      padding: 1rem;
   }
 
   .faq-item button {
-    width: 100%;
-  }
-
-  .faq-answer {
-    height: auto;
+    font-size: 15px;
   }
 }
 
@@ -568,7 +567,6 @@ footer .logo {
 
   .faq-answer {
     font-size: 12px;
-    height: auto;
   }
 
   /* ============   Section Footer  ============ */
