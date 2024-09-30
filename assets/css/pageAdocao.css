@@ -43,20 +43,17 @@
   }
 }
 
-
-
 .doacao-adocao .descricao p {
   color: black;
   margin-top: 1rem;
   text-align: justify;
 }
 
-
 /* Adoção Cards */
 
 .adoption-section {
   padding: 40px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: black;
 }
 
@@ -112,7 +109,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s;
-  height: 500px;
+  height: 530px;
   width: 300px;
 }
 
@@ -122,7 +119,7 @@
 
 .card-adocao img {
   width: 90%;
-  height: 200px;
+  height: 260px;
   display: block;
   margin: 20px auto;
   object-fit: cover;
@@ -131,12 +128,14 @@
 
 .card-content {
   padding: 15px;
-  text-align: center;
+  text-align: left;
 }
 
-.card-content h3 {
-  font-size: 1.5em;
+.card-content h4 {
+  font-size: 25px;
   margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .card-content p {
@@ -144,7 +143,7 @@
 }
 
 .card-content button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -158,11 +157,9 @@
   background-color: #45a049;
 }
 
-
 /* Responsivo para telas menores */
 
-@media (max-width:1439px) {
-
+@media (max-width: 1439px) {
   /* Adoção Descrição */
   .adocao-descricao {
     padding: 80px 20px 50px 20px;
@@ -188,7 +185,6 @@
 }
 
 @media (max-width: 1023px) {
-
   /* Adoção Descrição */
   .adocao-descricao {
     padding: 50px 5px 10px 5px;
@@ -211,9 +207,6 @@
       width: 20rem;
     }
   }
-
-
-
 
   .layout-container {
     grid-template-columns: 1fr;
@@ -253,7 +246,6 @@
 }
 
 @media (max-width: 767px) {
-
   /* Adoção Descrição */
   .adocao-descricao {
     display: flex;
@@ -268,12 +260,6 @@
       width: 30rem;
     }
   }
-
-
-
-
-
-
 
   .adoption-section h2 {
     font-size: 2rem;
@@ -298,12 +284,10 @@
 }
 
 @media (max-width: 576px) {
-
   /* Adoção Descrição */
   .adocao-descricao figure img {
     width: 20rem;
   }
-
 
   .filters select {
     width: 100%;
@@ -322,7 +306,6 @@
 }
 
 @media (max-width: 424px) {
-
   /* Adoção Descrição */
   .adocao-descricao {
     padding: 20px 5px 10px 5px;
