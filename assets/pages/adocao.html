@@ -105,7 +105,7 @@
         />
       </figure>
       <div class="descricao">
-        <h2 class="title-sessao"><span>Bem vindo</span>a sessão de adoção</h2>
+        <h2 class="title-sessao"><span>Bem vindo</span>a seção de adoção</h2>
         <p class="sessao-parag text-left text-ms-left">
           Nossos bichinhos estão à espera de um lar cheio de carinho e amor. Ao
           adotar, você não só transforma a vida de um animal resgatado, mas
@@ -337,29 +337,29 @@
       function filterCards() {
         // Pegar os valores dos filtros
         const sexFilter = document
-          .getElementById('sex-filter')
+          .getElementById("sex-filter")
           .value.toLowerCase(); // Normalizar para minúsculo
         const ageFilter = document
-          .getElementById('age-filter')
+          .getElementById("age-filter")
           .value.toLowerCase(); // Normalizar para minúsculo
 
         // Selecionar todos os cards
-        const cards = document.querySelectorAll('.card-adocao');
+        const cards = document.querySelectorAll(".card-adocao");
 
         // Loop através de cada card e verificar as condições do filtro
         cards.forEach((card) => {
-          const cardSex = card.getAttribute('data-sex').toLowerCase(); // Normalizar para minúsculo
-          const cardAge = card.getAttribute('data-age').toLowerCase(); // Normalizar para minúsculo
+          const cardSex = card.getAttribute("data-sex").toLowerCase(); // Normalizar para minúsculo
+          const cardAge = card.getAttribute("data-age").toLowerCase(); // Normalizar para minúsculo
 
           // Condições para mostrar o card
-          const showCardBySex = sexFilter === 'all' || cardSex === sexFilter;
-          const showCardByAge = ageFilter === 'all' || cardAge === ageFilter;
+          const showCardBySex = sexFilter === "all" || cardSex === sexFilter;
+          const showCardByAge = ageFilter === "all" || cardAge === ageFilter;
 
           // Verificar se o card deve ser exibido
           if (showCardBySex && showCardByAge) {
-            card.style.display = 'block'; // Exibe o card
+            card.style.display = "block"; // Exibe o card
           } else {
-            card.style.display = 'none'; // Oculta o card
+            card.style.display = "none"; // Oculta o card
           }
         });
       }
