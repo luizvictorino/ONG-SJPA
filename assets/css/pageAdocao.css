@@ -52,7 +52,7 @@
 /* Adoção Cards */
 
 .adoption-section {
-  padding: 40px;
+  padding: 50px;
   background-color: #4caf50;
   color: black;
 }
@@ -78,6 +78,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   height: fit-content;
+}
+
+.filtro a:hover {
+  background-color: #274128;
 }
 
 .filters label {
