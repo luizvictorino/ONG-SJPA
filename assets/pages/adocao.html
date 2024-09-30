@@ -41,7 +41,6 @@
     />
     <title>A sua doação trasnforma vidas</title>
   </head>
-
   <body>
     <header>
       <section class="menu-top container-fluid">
@@ -100,7 +99,7 @@
     <section class="adocao-descricao container-fluid d-flex flex-wrap">
       <figure>
         <img
-          src="../images/img/img-adocao.jpg"
+          src="../images/img/adocao.png"
           class="img-fluid p-sm-2"
           alt="imagem adocao "
         />
@@ -142,14 +141,14 @@
 
         <!-- Container dos Cards -->
         <div class="card-container container-fluid">
-          <div class="card-adocao" data-sex="female" data-age="adult">
+          <div class="card-adocao" data-sex="male" data-age="adult">
             <img
               src="../images/pets/bebezao.jpeg"
               class="img-fluid"
               alt="Cachorro bebezao"
             />
             <div class="card-content">
-              <h3>Adote a Bebezão</h3>
+              <h4>Adote a Bebezão</h4>
               <p>Macho</p>
               <p>Sem raça definida</p>
               <p>idade</p>
@@ -217,7 +216,7 @@
             </div>
           </div>
 
-          <div class="card-adocao" data-sex="female" data-age="young">
+          <div class="card-adocao" data-sex="male" data-age="young">
             <img
               src="../images/pets/maradona.jpeg"
               class="img-fluid"
@@ -247,7 +246,7 @@
             </div>
           </div>
 
-          <div class="card-adocao" data-sex="female" data-age="young">
+          <div class="card-adocao" data-sex="male" data-age="young">
             <img
               src="../images/pets/polar.jpeg"
               class="img-fluid"
@@ -262,7 +261,7 @@
             </div>
           </div>
 
-          <div class="card-adocao" data-sex="female" data-age="young">
+          <div class="card-adocao" data-sex="male" data-age="young">
             <img
               src="../images/pets/pluto.jpeg"
               class="img-fluid"
@@ -292,7 +291,7 @@
             </div>
           </div>
 
-          <div class="card-adocao" data-sex="female" data-age="young">
+          <div class="card-adocao" data-sex="male" data-age="young">
             <img
               src="../images/pets/duque.jpeg"
               class="img-fluid"
@@ -337,16 +336,20 @@
     <script>
       function filterCards() {
         // Pegar os valores dos filtros
-        const sexFilter = document.getElementById('sex-filter').value;
-        const ageFilter = document.getElementById('age-filter').value;
+        const sexFilter = document
+          .getElementById('sex-filter')
+          .value.toLowerCase(); // Normalizar para minúsculo
+        const ageFilter = document
+          .getElementById('age-filter')
+          .value.toLowerCase(); // Normalizar para minúsculo
 
         // Selecionar todos os cards
         const cards = document.querySelectorAll('.card-adocao');
 
         // Loop através de cada card e verificar as condições do filtro
         cards.forEach((card) => {
-          const cardSex = card.getAttribute('data-sex');
-          const cardAge = card.getAttribute('data-age');
+          const cardSex = card.getAttribute('data-sex').toLowerCase(); // Normalizar para minúsculo
+          const cardAge = card.getAttribute('data-age').toLowerCase(); // Normalizar para minúsculo
 
           // Condições para mostrar o card
           const showCardBySex = sexFilter === 'all' || cardSex === sexFilter;
@@ -361,6 +364,6 @@
         });
       }
     </script>
-    <script type="module" src="../script/index.js"></script>
+    <script type="module" src="./assets/script/index.js"></script>
   </body>
 </html>
