@@ -6,8 +6,7 @@
 @import url("./responsive.css");
 @import url("./voluntariado.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -121,7 +120,11 @@ header {
 /*=========SECTION SEÇÃO PERGUNTAS FREQUENTES==========*/
 
 #faq {
-  background: linear-gradient(to bottom, var(--green-less), var(--green-footer));
+  background: linear-gradient(
+    to bottom,
+    var(--green-less),
+    var(--green-footer)
+  );
   padding: 3rem 0 5.5rem 0;
   border-bottom: 4px solid var(--green-less);
 
@@ -190,8 +193,7 @@ footer .logo {
   width: 80px;
 }
 
-@media (min-width:1440px) {
-
+@media (min-width: 1440px) {
   /* ============   Section FAQ  ============ */
   .faq-grid {
     padding: 1rem 10rem;
@@ -200,7 +202,6 @@ footer .logo {
 }
 
 @media (max-width: 2220px) {
-
   /* ============   Section Voluntário  ============ */
   .voluntario figure {
     width: 400px;
@@ -208,8 +209,7 @@ footer .logo {
   }
 }
 
-@media (max-width:1440px) {
-
+@media (max-width: 1440px) {
   /* ============   Section Voluntário  ============ */
   .voluntarios h2 {
     font-size: 50px;
@@ -222,7 +222,6 @@ footer .logo {
 }
 
 @media only screen and (max-width: 1220px) {
-
   /* ============   Section Header  ============ */
   .container_logo {
     width: 70%;
@@ -327,7 +326,6 @@ footer .logo {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
   /* ============   Section Header  ============ */
   .banner h1 {
     width: 90% !important;
@@ -412,7 +410,6 @@ footer .logo {
 }
 
 @media (max-width: 860px) {
-
   /* ============   Section FAQ ============ */
   #faq {
     align-items: center;
@@ -428,7 +425,6 @@ footer .logo {
 }
 
 @media (max-width: 767px) {
-
   /* ============   Section Header  ============ */
   .img-logo {
     width: 70px;
@@ -559,7 +555,6 @@ footer .logo {
 }
 
 @media (max-width: 425px) {
-
   /* ============   Section Adoção  ============ */
   .card {
     width: 250px;
@@ -594,7 +589,6 @@ footer .logo {
       font-size: 24px;
     }
   }
-
 
   .voluntario figure {
     width: 250px;
